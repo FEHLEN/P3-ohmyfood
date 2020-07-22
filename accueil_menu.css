@@ -41,14 +41,14 @@ section{
     background-color: #ebd7d2;
     height: 400px;
     width: 300px;
-    border:4px groove rgba(176, 167, 178,0.1);
+    box-shadow: 1px 1px 12px #555;
     border-radius: 1%;
     margin-right: 2%;
     
 }
 .bouton_menu1{
     padding:0;
-    margin-top: 45%;
+    margin-top: 35%;
     transition:1s;
 
 }  
@@ -61,7 +61,15 @@ section{
 .bouton_menu1 h1{
     text-align: center;
     color:rgb(0,0,0);
-
+    font-family: 'Brush Script MT';
+}
+.bouton_menu1 i{
+    margin:0;
+    margin-left:45%;
+    background: linear-gradient( to right, red,rgb(240, 140, 10));
+    color:blue;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 .bouton_menu1 a{
     text-decoration: none;
@@ -73,6 +81,9 @@ section{
 .bouton_menu1 p{
     width: 100%;
     text-align: center;
+    font-family: Arial;
+    font-size: 1.5rem;
+    font-weight: bold;
     margin-bottom: 0;
 }
 /*menu 2*/
@@ -80,7 +91,7 @@ section{
     background-color:#f5f2e5;
     height: 400px;
     width: 300px;
-    border:4px groove rgba(176, 167, 178,0.1);
+    box-shadow: 1px 1px 12px #555;
     border-radius: 1%;
     margin-right: 2%;
 }
@@ -95,8 +106,12 @@ section{
 
 .bouton_menu2 h1{
     text-align: center;
-    color:black;
+    color:rgb(211, 140, 48);
+    background: linear-gradient( to right,rgb(211,140,48),rgb(112, 114, 243));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
+
 .bouton_menu2 a{
     text-decoration: none;
 }
@@ -109,6 +124,10 @@ section{
     width: 100%;
     text-align: center;
     margin-bottom: 0;
+    font-family: 'Bell MT';
+    color:rgb(211,140,48);
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 /*menu 3*/
@@ -116,8 +135,9 @@ section{
     background-color:#f3f4fa;
     height: 400px;
     width: 300px;
-    border:4px groove rgba(176, 167, 178,0.1);
+    box-shadow: 1px 1px 12px #555;
     border-radius: 1%;
+    margin-right: 2%;
 }
 .bouton_menu3{
     padding:0;
@@ -129,7 +149,9 @@ section{
 }
 .bouton_menu3 h1{
     text-align: center;
-    color:black;
+    color:rgb(10, 83, 240);
+    font-size: 1.8rem;
+    font-family: 'Alex Brush';
 }
 .bouton_menu3 a{
     text-decoration: none;
@@ -142,6 +164,10 @@ section{
 .bouton_menu3 p{
     width: 100%;
     text-align: center;
+    font-family: 'Bradley Hand ITC';
+    color:rgb(10, 83, 240);
+    font-size: 2rem;
+    font-weight: bold;
     margin-bottom: 0;
 }
 
@@ -151,7 +177,7 @@ section{
     background-color:#f1f8f4;
     height: 400px;
     width: 300px;
-    border:4px groove rgba(176, 167, 178,0.1);
+    box-shadow: 1px 1px 12px #555;
     border-radius: 1%;
 }
 .bouton_menu4{
@@ -164,7 +190,13 @@ section{
 }
 .bouton_menu4 h1{
     text-align: center;
-    color:black;
+    font-family: 'Lucida Handwriting', sans-serif;
+    font-size: 1.2rem;
+    color:rgb(12, 167, 58);
+    background: linear-gradient( to right, rgb(12, 167, 58),rgb(144, 236, 23));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
 }
 .bouton_menu4 a{
     text-decoration: none;
@@ -178,6 +210,10 @@ section{
     width: 100%;
     text-align: center;
     margin-bottom: 0;
+    color:rgb(16, 156, 40);
+    font-size: 2rem;
+    font-family: 'Bradley Hand ITC';
+    font-weight: bold;
 }
 
 /*pied de page*/
