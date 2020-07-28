@@ -10,8 +10,14 @@
     font-family: 'Croissant One';
     src:url('fonts/croissantone-regular.ttf');
 }
-
-
+@font-face{
+    font-family: 'Kaushan Script';
+    src:url('fonts/KaushanScript-Regular.otf');
+}
+@font-face{
+    font-family: 'Bradley Hand ITC';
+    src:url('fonts/bradhitc.ttf');
+}
 
 body{
     display:flex;flex-direction: column;
@@ -165,7 +171,7 @@ section{
 }
 .bouton_menu4 h1{
     text-align: center;
-    font-family: 'Lucida Handwriting', sans-serif;font-size: 1.2rem;
+    font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;
     color:rgb(12, 167, 58);
     background: linear-gradient( to right, rgb(12, 167, 58),rgb(144, 236, 23));
     -webkit-text-fill-color: transparent;
@@ -205,8 +211,11 @@ footer{
 .bouton_prochainement a{
     color:#faac03;
     text-decoration: none;
-    font-size: 2rem;
-    padding-right: 2%;   
+    font-size: 1.5rem;
+    padding-right: 2%; font-family: Arial, sans-serif; 
+}
+.bouton_prochainement i{
+    padding-right: 2%;
 }
 
 

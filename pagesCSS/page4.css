@@ -1,13 +1,10 @@
 @font-face{
     font-family: 'Alex Brush';
     src:url('../fonts/AlexBrush-Regular.ttf');
+    font-family: Kaushan Script;
+    src:url('../fonts/KaushanScript-Regular.otf');
+    
 }
-@font-face{
-    font-family: 'Bradley Hand ITC';
-    src:url('../fonts/bradhitc.ttf');
-}
-
-
 
 body{
     width: 100%;
@@ -32,21 +29,22 @@ header h1{
     margin:0;
     margin-top: 2%;
 }
+
 .menu{
     width: 80%; height: 2000px;
     margin: auto;
     margin-top: 2%;
-    background-color:  #e1ebf3;  
+    background-color:  white;  
     
 }
 .presentation{
     text-align: center;
     height: 20%;
-    font-size: 2.5rem;font-family: 'Alex Brush';
+    font-size: 3rem;font-family: 'Kaushan Script';
 }
 .presentation h1{
     margin-top: 5%; padding-top: 10%;
-    background: linear-gradient( to right,rgb(4, 58, 177),rgb(58, 113, 231));
+    background: linear-gradient( to right,rgb(71, 124, 9),rgb(213, 241, 167));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -64,17 +62,17 @@ section{
 #soulignebar1 {
     width: 40%;
     height: 6px;
-    border: 1px solid #e1ebf3 ;
+    border: 1px solid white;
     border-radius:7px;
     padding: 4px;
     margin-left:450px;margin-bottom: 2%;
 }
 #progress1 {
     width: 70%;
-    background-color:rgb(4, 58, 177);
+    background-color:rgb(71, 124, 9);
     height: 100%;
     border-radius: 7px;
-    border-color:rgb(4, 58, 177);
+    border-color:rgb(71, 124, 9);
     animation-name: soulignebar1;
     animation-iteration-count: 1;
     animation-duration: 2s;
@@ -91,17 +89,17 @@ section{
 #soulignebar2 {
     width: 40%;
     height: 6px;
-    border: 1px solid  #e1ebf3;
+    border: 1px solid  white;
     border-radius:7px;
     padding: 4px;
     margin-left:450px;margin-bottom: 2%;
 }
 #progress2 {
     width: 70%;
-    background-color:rgb(32, 80, 184);
+    background-color:rgb(83, 143, 27);
     height: 100%;
     border-radius: 7px;
-    border-color:rgb(32,80,184);
+    border-color:rgb(83,143,27);
     animation-name: soulignebar2;
     animation-iteration-count: 1;
     animation-duration: 2s;
@@ -118,17 +116,17 @@ section{
 #soulignebar3 {
     width: 40%;
     height: 6px;
-    border: 1px solid  #e1ebf3;
+    border: 1px solid  white;
     border-radius:7px;
     padding: 4px;
     margin-left:450px;margin-bottom: 2%;
 }
 #progress3 {
     width: 70%;
-    background-color:rgb(86, 153, 240);
+    background-color:rgb(145, 212, 38);
     height: 100%;
     border-radius: 7px;
-    border-color:rgb(86, 153, 240);
+    border-color:rgb(145, 212, 38);
     animation-name: soulignebar3;
     animation-iteration-count: 1;
     animation-duration: 2s;
@@ -143,63 +141,26 @@ section{
     }   
 }
 
-
 h2{
     margin:0;
     padding:0;
     width: 30%;
     margin-top: 1%;
-    padding-bottom: 4%;
-    font-family:'Bradley Hand ITC';font-weight: bold;
+    padding-bottom: 3%;
+    font-family:'Bradley Hand ITC';
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
-   
-.entree h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(4, 58, 177);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
+section h3{
+    width: 30%; height: 6px;
     margin-left: 5%; 
-    
-}
-.plat h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(32, 80, 184);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
-    margin-left: 5%; 
-}
-.dessert h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(86, 153, 240);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
-    margin-left: 5%; 
+}   
+section h4{
+    width: 30%; height: 6px;
+    margin-right: 5%;  
 }
 
-.entree h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(4, 58, 177);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
-}
-.plat h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(32, 80, 184);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
-}
-.dessert h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(86, 153, 240);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
-}
 
 
 .entree{
@@ -217,19 +178,19 @@ h2{
 }
 
 .texte p{
-    font-size: 1.5rem;
-    font-family: 'Bradley Hand ITC';font-weight: bold;
+    font-size: 1.5rem; font-weight: bold;
+    font-family: 'Bradley Hand ITC',Arial;
     margin-left:14%;
 }
 .prix{
     width: 30%;
+    font-family: 'Bradley Hand ITC'; font-weight: bold;
 }
 .prix p{
-    font-size: 1.5rem; font-family: 'Bradley Hand ITC';font-weight: bold;
+    font-size: 1.5rem;
     margin-right:50%;
     text-align: right;
 }
-
 footer{
     background-color:white;
     width: 100%;

@@ -1,0 +1,133 @@
+@font-face{
+    font-family: 'Dancing Script';
+    src:url('../fonts/DancingScript-Regular.otf')
+    
+}
+
+
+
+
+body{
+    margin:0; padding:0;width: 100%;
+}
+
+header{
+    background-color:rgb(7,102,16);border:1px solid rgb(7,102,16);
+    height: 150px;display: flex;flex-direction: column;
+}
+header h1{
+    color:#faac03;font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;
+    margin-top: 2%;
+}
+section{
+    background-color: wheat;width: 80%;height: auto;
+    margin-top: 3%;margin-bottom: 12%;padding-bottom: 3%;margin-left: 10%; 
+}
+
+section h1{
+    text-align: center; font-size: 1.7rem;font-family: 'Lucida Grande', Verdana, sans-serif;
+    width: 400px;height: 40px;
+    border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
+    margin-top: 5%; margin-left: 52%;padding:3%;
+}
+h3{
+    background-color:rgb(7,102,16);border:1px solid rgb(7,102,16);
+    height: 50px; width: 150px;text-align: center;padding-top: 2%;
+    margin-left: 10%; color:#faac03; font-family: 'Cooper Black';
+    
+}
+h4{
+    font-weight: bold;
+    font-size: 1.5rem;text-align: justify;font-family:'Dancing Script' ;
+    margin-left: 12%; margin-right: 5%; padding-top: 15%;
+}
+nav{
+    border:1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
+    width: 40%;padding-left: 2%;margin-left: 2%;margin-top: 2%;float: left;
+}
+nav p{
+    font-size: 1.5rem; color:rgb(7,102,16);font-family: Arial, sans-serif;
+}
+nav li{
+    list-style-type: none;margin-left: 2%;
+}
+nav a{
+    text-decoration: none;font-family: Arial, sans-serif;font-size: 1.2rem;color:black;
+}
+
+h2{
+    text-align: center; margin-top: 10%; margin-left: 3%; margin-bottom: 5%;
+    width: 400px;font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103); border-radius: 7px;
+}
+p{
+    text-align: justify;font-size: 1.7rem;font-family: 'Dancing Script';
+    margin-left: 10%;margin-right: 10%;
+}
+
+footer{
+    background-color:white;
+    width: 100%;position: fixed;right:0px;left:0px;bottom:0px;height: 100px;
+}
+
+.bouton_accueil{
+    width: 16%;margin: auto;text-align: center;
+    background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);border-radius: 10px;
+}
+
+.bouton_accueil a{
+    color:#faac03;font-family: Arial, sans-serif;text-decoration: none;font-size: 2rem;
+    padding-right: 7%;  padding-left: 5%; 
+} 
+.bouton_accueil i{
+    padding-right: 2%;
+}
+.one{             /*animation trois points*/
+    opacity: 0;
+    -webkit-animation: dot 3s infinite;
+    -webkit-animation-delay: 0.5s;
+    animation: dot 2s infinite;
+    animation-delay: 0.5s;
+}
+
+.two{
+    opacity: 0;
+    -webkit-animation: dot 3s infinite;
+    -webkit-animation-delay: 1s;
+    animation: dot 2s infinite;
+    animation-delay: 1s;
+}
+
+.three{
+    opacity: 0;
+    -webkit-animation: dot 3s infinite;
+    -webkit-animation-delay: 1.5s;
+    animation: dot 2s infinite;
+    animation-delay: 1.5s;
+}
+
+@-webkit-keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes dot {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+

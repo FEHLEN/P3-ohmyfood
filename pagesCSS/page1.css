@@ -1,3 +1,12 @@
+@font-face{
+    font-family: 'Kaushan Script';
+    src:url('../fonts/KaushanScript-Regular.otf');
+    
+}
+
+
+
+
 body{
     width: 100%;
     margin: 0;
@@ -91,9 +100,9 @@ h2{
     margin-top: 3%;
     padding-bottom: 1%;
     margin-left: 3%;
-    font-family:Arial;
+    font-family:'Kaushan Script';
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
    
@@ -121,7 +130,7 @@ h3{
 
 .texte p{
     font-size: 1.5rem;
-    font-family: 'Brush Scipt MT';
+    font-family: 'Kaushan Script';
     margin-left:14%;
 }
 .prix{
@@ -130,7 +139,7 @@ h3{
 .prix p{
     font-size: 1.5rem;
     margin-right:50%;
-    text-align: right;
+    text-align: right; font-family:'Kaushan Script';
 }
 
 footer{
