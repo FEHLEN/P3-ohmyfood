@@ -4,9 +4,6 @@
     
 }
 
-
-
-
 body{
     margin:0; padding:0;width: 100%;
 }
@@ -28,7 +25,7 @@ section h1{
     text-align: center; font-size: 1.7rem;font-family: 'Lucida Grande', Verdana, sans-serif;
     width: 400px;height: 40px;
     border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
-    margin-top: 5%; margin-left: 52%;padding:3%;
+    padding-top:30px;padding-bottom:30px; margin-left: 55%;
 }
 h3{
     background-color:rgb(7,102,16);border:1px solid rgb(7,102,16);
@@ -67,14 +64,16 @@ p{
 
 footer{
     background-color:white;
-    width: 100%;position: fixed;right:0px;left:0px;bottom:0px;height: 100px;
+    width: 100%;position: fixed;right:0px;left:0px;bottom:0px;height: 172px;
 }
 
 .bouton_accueil{
-    width: 16%;margin: auto;text-align: center;
+    width: 220px;margin: auto;text-align: center;height:72px;
     background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);border-radius: 10px;
 }
-
+.bouton_accueil p{
+    margin-top: 10px;
+}
 .bouton_accueil a{
     color:#faac03;font-family: Arial, sans-serif;text-decoration: none;font-size: 2rem;
     padding-right: 7%;  padding-left: 5%; 
@@ -105,6 +104,45 @@ footer{
     animation: dot 2s infinite;
     animation-delay: 1.5s;
 }
+.bandeau_bas{   /*bande du bas mentions et contact*/
+    display: flex;flex-direction: row;height: 100px;margin-top: 10px;
+}
+.bouton_mentions{
+    padding:0;width: 50%;
+    background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);flex-direction: row;text-align: left;
+}
+.bouton_mentions a{
+    text-decoration: none;
+}
+.bouton_mentions h5{
+    color:#faac03;font-size: 1.5rem;font-family: Arial;padding-left: 2%;margin-top: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+    transition-property: transform;
+    transition-timing-function: ease;
+}
+.bouton_mentions h5:hover{
+    transform:translateX(200px);
+}
+
+.bouton_contact{
+    width: 50%;text-align: center;
+    background-color:rgb(7,102,16); border:2px solid rgb(7,102,16);flex-direction: row;text-align:right;
+}
+.bouton_contact a{
+    text-decoration: none;
+} 
+.bouton_contact h5{
+    color:#faac03;font-size: 1.5rem;font-family: Arial;padding-right: 2%;margin-top: 20px;
+    transition-duration: 0.3s;
+    transition-delay: 0.2s;
+    transition-property: transform;
+    transition-timing-function: ease;  
+}
+.bouton_contact h5:hover{
+    transform:translate(-200px,0px);
+}
+
 
 @-webkit-keyframes dot {
     0% {
@@ -129,5 +167,96 @@ footer{
         opacity: 1;
     }
 }
+
+@media all and (max-width : 1024px) /*tous les écrans de moins de 1024px)*/
+{
+    body{
+        display: flex;
+        flex-direction: column;
+        padding:0;margin:0;
+    }
+    header{
+        background-color:rgb(7,102,16);border:1px solid rgb(7,102,16);
+        height: 120px;display: flex;flex-direction: column;
+    }
+    header h1{
+        color:#faac03;font-family: 'Cooper Black';text-align: center;font-size: 3rem;
+        margin-top: 5%;
+    }
+    section{
+        background-color: wheat;width: 100%;height: auto;margin:0;padding:0;padding-bottom: 175px;
+
+    }
+    nav{
+        display: none;
+    }
+    section h1{
+        text-align: center; font-size: 1.5rem;font-family: 'Lucida Grande', Verdana, sans-serif;
+        width: 300px;height: 20px;padding-top:2px;
+        border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
+        margin:auto;margin-top:2rem;
+    }
+
+    h2{
+        text-align: center;
+        width: 300px;
+    }
+    h3{
+        height: 50px; width: 150px;text-align: center;padding-top: 20px;
+        margin-left: 10%;
+        
+    }
+    
+    footer{
+        width: 100%;height:172px;position: fixed;right:0px;left:0px;bottom:0px;display: flex;flex-direction: column;
+    }
+    
+    .bouton_accueil{
+        width: 100px;height:80px;margin:auto;text-align: center;display: flex;flex-direction: column;
+        background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);border-radius: 10px;
+    }
+    
+    .bouton_accueil a{
+        color:#faac03;text-decoration: none;font-size: 1.3rem; font-family: Arial, sans-serif; 
+    }
+    .bouton_accueil i{
+        padding-right: 2%;margin-left: 10px;
+    }
+    
+    .bandeau_bas{   /*bande du bas mentions et contact*/
+        display: flex;flex-direction: row;margin:0;margin-top: 2%;height: 100px;
+    }
+    .bouton_mentions{
+        padding:0;width: 50%;padding-left: 1%;
+        text-align: left;
+    }
+    .bouton_mentions a{
+        text-decoration: none;
+    }
+    .bouton_mentions h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-bottom: 30px;padding-top: 30px;
+    }
+    .bouton_mentions h5:hover{
+        transform:translateX(0px);
+    }
+    .bouton_contact{
+        width: 50%;text-align: center;
+        flex-direction: row;text-align:right;padding-right: 1%;
+    }
+    .bouton_contact a{
+        text-decoration: none;
+    } 
+    .bouton_contact h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-bottom: 30px;padding-top: 30px;
+       
+    }
+    .bouton_contact h5:hover{
+        transform:translate(0px,0px);
+    
+    }
+
+
+}
+
 
 
