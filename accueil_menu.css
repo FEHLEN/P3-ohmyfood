@@ -14,40 +14,34 @@ body{
 }
 
 header{
-    background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);
-    height: 150px; 
+    background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 
 header h1{
-    color:rgb(253, 203, 70);font-family: 'Cooper Black';
-    text-align: center;font-size: 3.5rem;margin:0;margin-top: 2%;
+    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
 }
 
 section{
-    background-color: white;display: flex;flex-wrap: wrap;
-    justify-content: space-around;margin-top: 6%;margin-bottom: 5%;height: 1100px;
+    background-color: white;display: flex;flex-wrap: wrap;justify-content: space-around;margin-top: 6%;margin-bottom: 300px;height:auto;
 }
 /*menu1*/
 .cadre_menu1{
-    background-color: #ebd7d2;height: 400px;width: 300px;
-    box-shadow: 2px 2px 12px rgb(209, 205, 205);border-radius: 1%;
-    margin-right: 2%; 
+    background-color: rgb(252, 223, 219);height: 400px;width: 300px;box-shadow: 2px 2px 12px rgb(209, 205, 205);border-radius: 1%;
+    margin-right: 2%;margin-bottom: 3%; 
 }
 
 .bouton_menu1{
-    padding:0;margin-top: 35%;transition:1s;
+    height:200px;padding:0;transition:1s;padding-top:100px;padding-bottom: 100px;
 }  
 .bouton_menu1:hover {           /*animation zoom*/  
     transform:scale(1.3);
 }
 
 .bouton_menu1 h1{
-    text-align: center;color:rgb(0,0,0);
-    font-family: 'Brush Script MT'; font-size: 1.8em;
+    text-align: center;color:rgb(41, 14, 18);font-family: 'Brush Script MT'; font-size: 1.9em;
 }
 .bouton_menu1 i{
-    margin:0;margin-left:45%;color:blue;padding-top:0;text-align: center;
-    background: linear-gradient( to right, red,rgb(240, 140, 10));
+    margin-left:45%;color:rgb(240, 82, 97);padding-top:0;text-align: center;background: linear-gradient( to right, rgba(240, 82, 97, 1),rgb(246, 145, 106));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
 }
@@ -56,23 +50,20 @@ section{
 }
 
 .bouton_menu1 p{
-    width: 100%;text-align: center;
-    font-family: 'Jomhuria';font-size: 2.2rem;font-weight: bold;margin-bottom: 0;
+    width: 100%;;text-align: center;color:rgb(41, 14, 18);font-family: 'Jomhuria';font-size: 2.2rem;font-weight: bold;margin-bottom: 0;
 }
 /*menu 2*/
 .cadre_menu2{
-    background-color:#fcf6fb;box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;
-    margin-right: 2%;height: 400px;width: 300px;
+    background-color:rgb(255, 245, 254);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;margin-right: 2%;height: 400px;width: 300px;
 }
 .bouton_menu2{
-    padding:0;margin-top: 45%;transition:1s;
+    height:200px;padding-top:100px;padding-bottom:100px;transition:1s;
 }
 .bouton_menu2:hover{     /*animation zoom*/
     transform:scale(1.3);
 }
 .bouton_menu2 h1{
-    text-align: center; font-family: 'Croissant One';font-size: 1em;color:rgb(211, 140, 48);
-    background: linear-gradient( to right,rgb(211,140,48),rgb(112, 114, 243));
+    padding:0px;text-align: center; padding-top:50px;font-family: 'Croissant One';font-size: 1.2em;color:rgb(211, 140, 48);background: linear-gradient( to right,rgb(199, 116, 18),rgb(157, 98, 219));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
 }
@@ -80,29 +71,23 @@ section{
 .bouton_menu2 a{
     text-decoration: none;
 }
-.bouton_menu2 i{
-    padding-top:0;width: 100%;
-    text-align: center;
-}
+
 .bouton_menu2 p{
-    width: 100%;text-align: center;color:rgb(211,140,48);
-    margin-bottom: 0;font-family: 'Bell MT';font-weight: bold;font-size: 2rem;
+    width: 100%;text-align: center;color:rgb(216,133,46);margin-bottom: 0;font-family: 'Bell MT';font-weight: bold;font-size: 2rem;
 }
 
 /*menu 3*/
 .cadre_menu3{
-    background-color:#f3f4fa;box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;
-    margin-right: 2%; height: 400px;width: 300px;
+    background-color:rgb(249,249,249);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;margin-right: 2%; height: 400px;width: 300px;
 }
 .bouton_menu3{
-    padding:0;margin-top: 45%;transition:1s;
+    height:200px;padding-top:100px;padding-bottom:100px;transition:1s;
 }
 .bouton_menu3:hover{   /*animation zoom*/
     transform:scale(1.3);
 }
 .bouton_menu3 h1{
-    text-align: center;color:rgb(10, 83, 240);font-size: 1.8rem;font-family: 'Alex Brush';
-    background: linear-gradient( to right,rgb(4, 58, 177),rgb(58, 113, 231));
+    padding:0px;text-align: center;padding-top:35px;color:rgb(4,49,223);font-size: 1.9rem;font-family: 'Alex Brush';background: linear-gradient( to right,rgb(4,49,223),rgb(108,178,249));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
 }
@@ -110,28 +95,24 @@ section{
 .bouton_menu3 a{
     text-decoration: none;
 }
-.bouton_menu3 i{
-    padding-top:0;width: 100%;text-align: center;
-}
+
 .bouton_menu3 p{
-    width: 100%;text-align: center;margin-bottom: 0;
-    color:rgb(10, 83, 240);font-family: 'Bradley Hand ITC';font-size: 2rem;font-weight: bold;
+    width: 100%;text-align: center;color:rgb(4,49,223);font-family: 'Bradley Hand ITC';font-size: 2rem;font-weight: bold;
 }
 
 /*menu 4*/
 
 .cadre_menu4{
-    background-color:#f1f8f4;box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;height: 400px;width: 300px;
+    background-color:rgb(253,253,253);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;height: 400px;width: 300px;
 }
 .bouton_menu4{
-    padding:0;margin-top: 45%;transition:1s;
+    height:200px;padding-top:100px;padding-bottom:100px;transition:1s;
 }
 .bouton_menu4:hover{   /*animation zoom*/
     transform:scale(1.3);
 }
 .bouton_menu4 h1{
-    text-align: center;font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;color:rgb(12, 167, 58);
-    background: linear-gradient( to right, rgb(12, 167, 58),rgb(144, 236, 23));
+    text-align: center;padding-top:35px;font-family: 'Kaushan Script', sans-serif;font-size: 1.6rem;color:rgb(66,151,60);background: linear-gradient( to right, rgb(66,151,60),rgb(174,225,147));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
 }
@@ -143,8 +124,7 @@ section{
     padding-top:0;width: 100%;text-align: center;
 }
 .bouton_menu4 p{
-    width: 100%;text-align: center;margin-bottom: 0;
-    color:rgb(12, 167, 58);font-size: 2rem;font-family: 'Bradley Hand ITC';font-weight: bold;
+    width: 100%;text-align: center;margin-bottom: 0;color:rgb(66,151,60);font-size: 2rem;font-family: 'Bradley Hand ITC';font-weight: bold;
 }
 
 /*pied de page*/
@@ -154,8 +134,7 @@ footer{
 }
 
 .bouton_prochainement{
-    width: 30%; margin: auto;text-align: center;
-    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
+    width: 30%; margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
 
 .bouton_prochainement a{
@@ -218,8 +197,7 @@ footer{
 
 
 .bouton_mentions{
-    padding:0;width: 50%;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
+    padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
 }
 .bouton_mentions a{
     text-decoration: none;
@@ -236,8 +214,7 @@ footer{
 }
 
 .bouton_contact{
-    width: 50%;text-align: center;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
+    width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
 }
 .bouton_contact a{
     text-decoration: none;
@@ -252,7 +229,7 @@ footer{
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
-
+/*______________________________________________________________________________________________________________________________*/
 
 @media all and (max-width : 1024px)	/*tous les écrans de taille inférieure à 1024px*/
 {
@@ -278,46 +255,45 @@ section{
     height: 400px;width: 300px;margin:auto;margin-bottom: 5%;
 }
 footer{
-    background-color:white;width: 100%;height:172px;position: fixed;right:0px;left:0px;bottom:0px;
+    background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
 }
 
 .bouton_prochainement{
-    width: 100px; margin:auto;text-align: center;
-    background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);border-radius: 10px;
+    width: 50%; margin:auto;text-align: center;
 }
 
 .bouton_prochainement a{
-    color:#faac03;text-decoration: none;font-size: 0.9rem;padding: 2%; font-family: Arial, sans-serif; 
+    color:rgb(253,203,70);text-decoration: none;font-size: 1rem;padding: 2%; font-family: Arial, sans-serif; font-weight: bold;
 }
 .bouton_prochainement i{
     padding-right: 2%;
 }
 
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;flex-direction: row;margin:0;margin-top: 2%;height: 100px;
+    display: flex;flex-direction: row;margin:0;margin-top: 2%;height: 80px;
 }
 .bouton_mentions{
-    padding:0;width: 50%;padding-left: 1%;
+    padding:0;width: 50%;padding-left: 2%;
     text-align: left;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
 .bouton_mentions h5{
-    padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-bottom: 30px;padding-top: 30px;
+    padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
 }
 .bouton_mentions h5:hover{
     transform:translateX(0px);
 }
 .bouton_contact{
     width: 50%;text-align: center;
-    flex-direction: row;text-align:right;padding-right: 1%;
+    flex-direction: row;text-align:right;padding-right: 2%;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-bottom: 30px;padding-top: 30px;
+    padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
    
 }
 .bouton_contact h5:hover{

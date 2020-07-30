@@ -10,250 +10,131 @@
 
 
 body{
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 100%;height: auto;
    
 }
-
-
 header{
-    background-color:#199621;
-    border:1px solid #199621;
-    height: 150px;
-    display:flex;
-    flex-direction: column;
+    background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
+
 header h1{
-    color:#faac03;
-    font-family: 'Cooper Black', sans-serif;
-    text-align: center;
-    font-size: 3.5rem;
-    margin:0;
-    margin-top: 2%;
+    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
 }
+p{
+    width: 100%;text-align: center;font-size: 1.5rem;
+}
+
 .menu{
-    width: 80%; height: 2000px;
-    margin: auto;
-    margin-top: 2%;
-    background-color:  #e1ebf3;  
-    
+    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(249, 249, 249);padding-bottom: 300px;
 }
 .presentation{
-    text-align: center;
-    height: 20%;
-    font-size: 2.5rem;font-family: 'Alex Brush';
+    text-align: center;height:350px;font-size: 2.5rem; background: linear-gradient( to right,rgb(4, 49, 223), rgb(61, 159, 250), rgb(108, 178, 249));
+    -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
+    -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
 }
 .presentation h1{
-    margin-top: 5%; padding-top: 10%;
-    background: linear-gradient( to right,rgb(4, 58, 177),rgb(58, 113, 231));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    margin-top: 5%; padding-top: 10%;font-family: 'Alex Brush';
 }
 
 section{
-    margin:0;
-    display: flex;flex-direction: column;
-    width: 100%;padding-bottom: 4%;
+    margin:0;display: flex;flex-direction: column;width: 90%;padding-bottom: 4%;margin-left: 5%;margin-right: 5%;
 }
 
 .titre{
-    display:flex;flex-direction: row;
+    display:flex;flex-direction: row;width: 100%;padding-bottom: 25px;padding-top: 25px;
 }
 
-#soulignebar1 {
-    width: 40%;
-    height: 6px;
-    border: 1px solid #e1ebf3 ;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:450px;margin-bottom: 2%;
+.entree h2{
+    margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
 }
-#progress1 {
-    width: 70%;
-    background-color:rgb(4, 58, 177);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(4, 58, 177);
-    animation-name: soulignebar1;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
+.entree h2{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(4, 49, 223, 1) 0%, rgba(4, 49, 223, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
 }
-@keyframes soulignebar1 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
-}
-#soulignebar2 {
-    width: 40%;
-    height: 6px;
-    border: 1px solid  #e1ebf3;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:450px;margin-bottom: 2%;
-}
-#progress2 {
-    width: 70%;
-    background-color:rgb(32, 80, 184);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(32,80,184);
-    animation-name: soulignebar2;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-}
-@keyframes soulignebar2 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
-}
-#soulignebar3 {
-    width: 40%;
-    height: 6px;
-    border: 1px solid  #e1ebf3;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:450px;margin-bottom: 2%;
-}
-#progress3 {
-    width: 70%;
-    background-color:rgb(86, 153, 240);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(86, 153, 240);
-    animation-name: soulignebar3;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-}
-@keyframes soulignebar3 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
+  
+.entree h2:hover {
+    background-size: 100% 100%;
 }
 
-
-h2{
-    margin:0;
-    padding:0;
-    width: 30%;
-    margin-top: 1%;
-    padding-bottom: 4%;
-    font-family:'Bradley Hand ITC';font-weight: bold;
-    text-align: center;
-    font-size: 1.8rem;
-}
-
-   
 .entree h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(4, 58, 177);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
-    margin-left: 5%; 
-    
-}
-.plat h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(32, 80, 184);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
-    margin-left: 5%; 
-}
-.dessert h3{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(86, 153, 240);
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 20px; 
-    margin-left: 5%; 
+    width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;   
 }
 
 .entree h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(4, 58, 177);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
+    width: 315px;height: 6px;border-bottom:10px solid rgb(4, 49, 223);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;
 }
+
+.plat h2{
+    text-decoration: none;margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
+    background:linear-gradient(to top, rgba(61, 159, 250, 1) 0%, rgba(61, 159, 250, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+  
+.plat h2:hover {
+    background-size: 100% 100%;
+}
+
+.plat h3{
+    width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px;   
+}
+
 .plat h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(32, 80, 184);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
+    width: 315px;height: 6px;border-bottom:10px solid rgb(61, 159, 250);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;
 }
+
+.dessert h2{
+    text-decoration: none;margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
+    background:linear-gradient(to top, rgba(108, 178, 249, 1) 0%, rgba(108, 178, 249, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+  
+.dessert h2:hover {
+    background-size: 100% 100%;
+}
+
+.dessert h3{
+    width: 315px; height: 6px;border-bottom:10px solid rgb(108, 178, 249);border-bottom-right-radius: 8px;border-bottom-left-radius: 22px; 
+}
+
 .dessert h4{
-    width: 30%; height: 4px;
-    border-bottom:10px solid rgb(86, 153, 240);
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 20px;
-    margin-right: 5%;  
+    width: 315px; height: 6px;border-bottom:10px solid rgb(18, 178, 249);border-bottom-left-radius: 8px;border-bottom-right-radius: 22px;  
 }
-
-
-.entree{
-    flex-direction: column;
-    padding-bottom: 3%;
-}
-
 
 .ligne{
-    display: flex;
-    flex-direction: row;
+    display: flex;flex-direction: row;
 }
+
 .texte{
-    width:70%;
+    width:1019px;padding-left: 80px;
 }
 
 .texte p{
-    font-size: 1.5rem;
-    font-family: 'Bradley Hand ITC';font-weight: bold;
-    margin-left:14%;
+    font-size: 1.5rem;text-align: left;font-family: 'Bradley Hand ITC';font-weight: bold;
 }
+
 .prix{
-    width: 30%;
+    width: 120px;padding-right: 80px;
 }
 .prix p{
-    font-size: 1.5rem; font-family: 'Bradley Hand ITC';font-weight: bold;
-    margin-right:50%;
-    text-align: right;
+    font-size: 1.5rem;font-family: 'Bradley Hand ITC';font-weight: bold;text-align: right;
 }
 
 footer{
-    background-color:white;
-    width: 100%;
-    position: fixed;
-    right:0px;
-    left:0px;
-    bottom:0px;
+    background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
 }
+
 .bouton_prochainement{
-    width: 16%;
-    margin: auto;
-    text-align: center;
-    background-color:rgb(7,102,16);
-    border:2px solid rgb(7,102,16);
-    border-radius: 10px;
+    width: 30%; margin: auto;text-align: center;
+    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
 
 .bouton_prochainement a{
-    color:#faac03;
-    text-decoration: none;
-    font-size: 2rem;
-    padding-right: 3%;   
+    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; 
 }
-
+.bouton_prochainement i{
+    padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
+}
 
 .one{             /*animation trois points*/
     opacity: 0;
@@ -262,7 +143,6 @@ footer{
     animation: dot 2s infinite;
     animation-delay: 0.5s;
 }
-
 .two{
     opacity: 0;
     -webkit-animation: dot 3s infinite;
@@ -270,14 +150,12 @@ footer{
     animation: dot 2s infinite;
     animation-delay: 1s;
 }
-
 .three{
     opacity: 0;
     -webkit-animation: dot 3s infinite;
     -webkit-animation-delay: 1.5s;
     animation: dot 2s infinite;
     animation-delay: 1.5s;
-}
 }
 @-webkit-keyframes dot {
     0% {
@@ -290,6 +168,7 @@ footer{
         opacity: 1;
     }
 }
+
 @keyframes dot {
     0% {
         opacity: 0;
@@ -301,80 +180,146 @@ footer{
         opacity: 1;
     }
 }
+
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
-    width: 100%;
+    display: flex;flex-direction: row;margin-top: 2%;
 }
 
 
 .bouton_mentions{
-    width: 49%;
-    margin:0;
-    padding: 0;
-    background-color:rgb(7,102,16);
-    border:2px solid rgb(7,102,16);
-    flex-direction: row;
-    padding-left: 1%;  
+    padding:0;width: 50%;
+    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
-
 .bouton_mentions h5{
-    color:#faac03;
-    font-size: 1.5rem; 
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left: 2%;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
     transition-property: transform;
     transition-timing-function: ease;
-    font-family: Arial;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
 }
 
-
-
 .bouton_contact{
-    margin:0;
-    padding: 0;
-    width: 49%;
-    text-align: center;
-    background-color:rgb(7,102,16); 
-    border:2px solid rgb(7,102,16);
-    flex-direction: row;
-    text-align:right;
-    padding-right: 1%;
+    width: 50%;text-align: center;
+    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:#faac03;
-    font-size: 1.5rem; 
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
     transition-property: transform;
-    transition-timing-function: ease;
-    font-family: Arial;
+    transition-timing-function: ease;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
-.final{
-    display: flex;
-    flex-direction: row;
-    text-align: center; padding-top:2%;
+
+@media all and (max-width:1024px){
+    body{
+        margin:0;padding:0;
+    }
+    header{
+        height: 150px;display:flex;flex-direction: column;
+    }
+    header h1{
+        text-align: center;font-size: 3rem;margin:0;margin-top: 5%;
+    }
+    .menu{
+        width: 90%; height: auto;margin-left:5%;margin-bottom:0;
+    }
+    .presentation{
+        height: 200px;
+    }
+    .presentation h1{
+        padding-top:20%;text-align: center;margin:auto;
+        font-size: 2.5rem;
+    }
+    section{
+        width: 90%;
+    }
+    .titre{
+        display:flex;flex-direction: row;width: 100%;padding-bottom: 2%;margin:auto;
+    }
+    .entree h2{
+        text-align: center;font-size: 1.5rem;padding:0;
+    }
+    .plat h2{
+        text-align: center;font-size: 1.5rem;padding:0;
+    }
+    .dessert h2{
+        text-align: center;font-size: 1.5rem;padding:0;
+    }
+    .texte{
+        margin:0; padding:0;width:80%;
+    }
+    .texte p{
+        font-size: 1rem;
+    }
+    .prix{
+        padding:0;width: 20%;
+    }
+    .prix p{
+        font-size: 1rem;
+    }
+
+    footer{
+        background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
+    }
+    
+    .bouton_prochainement{
+        width: 50%;text-align: center;
+    }
+    
+    .bouton_prochainement a{
+        font-size: 1rem;font-family: Arial, sans-serif;font-weight: bold;
+    }
+    .bouton_prochainement i{
+        padding-right: 2%;
+    }
+    .bouton_prochainement p{
+        margin:0;padding:0;margin:9px;
+    }
+    
+    .bandeau_bas{   /*bande du bas mentions et contact*/
+        display: flex;flex-direction: row;margin:0;margin-top: 4%;height: 80px;
+    }
+    .bouton_mentions{
+        padding:0;width: 50%;padding-left: 2%;
+        text-align: left;
+    }
+    .bouton_mentions a{
+        padding:0;
+    }
+    .bouton_mentions h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+    }
+    .bouton_mentions h5:hover{
+        transform:translateX(0px);
+    }
+    .bouton_contact{
+        width: 50%;text-align: center;padding-right: 2%;
+        flex-direction: row;text-align:right;
+    }
+    .bouton_contact a{
+        text-decoration: none;padding:0;
+    } 
+    .bouton_contact h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+       
+    }
+    .bouton_contact h5:hover{
+        transform:translate(0px,0px);
+    
+    }
+
 }
 
-.final p{
-    width: 10%;
-    margin-left:30%;
-}    
-.final h1{
-    width: 30%;
-    font-size: 2.5rem;
-    font-family: 'Brush Script MT';
-}
+

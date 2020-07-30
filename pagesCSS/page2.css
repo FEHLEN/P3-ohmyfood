@@ -6,243 +6,149 @@
 
 
 body{
-    width: 100%;
-    height: auto; 
+    width: 100%;height: auto; 
 }
 
 header{
-    background-color:rgb(7,102,16);border:1px solid rgb(7,102,16);
-    height: 150px;width: 100%;
-    display:flex;flex-direction: column;
-}
-header h1{
-    color:#faac03;
-    font-family: 'Cooper Black','sans serif';font-weight: bold;
-    text-align: center;font-size: 3.5rem;
-    margin:0;margin-top:2%;
+    background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 
+header h1{
+    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
+}
+p{
+    width: 100%;text-align: center;font-size: 1.5rem;
+}
 .menu{
-    width: 80%;
-    margin: auto;margin-top: 2%;
-    background-color:  #fcf6fb;padding-bottom: 15%;
+    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(255,245,254);padding-bottom: 300px;
 }
 .presentation{
-    height: 450px;
-    background: linear-gradient( to right,rgb(211,140,48),rgb(145, 60, 145),rgb(39, 84, 182));
+    height: 450px;background: linear-gradient( to right,rgb(199,116,18),rgb(157,98,219),rgb(204,172,252));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
-    font-family: 'Croissant One';font-weight: bold;font-size: 40px;
-    width: 80%;margin-left:10%;
-    margin-top:2% ;
+    font-family: 'Croissant One';font-weight: bold;font-size: 40px;width: 80%;margin-left:10%;margin-top:2% ;
 }
 
 .presentation h1{
-    padding-top: 20%;text-align: center;
+    padding-top: 20%;padding-bottom:5%;text-align: center;
 }
 
 section{
-    margin:0;
-    display: flex;flex-direction: column;
-    width: 100%;padding-bottom: 4%;
+    margin:0;display: flex;flex-direction: column;width: 90%;padding-bottom: 4%;margin-left: 5%;margin-right: 5%;
 }
 
 .titre{
-    display:flex;flex-direction: row;
-    padding-bottom: 2%;
+    display:flex;flex-direction: row;width: 100%;padding-bottom: 2%;
 }
-#soulignebar1 {
-    width: 43%;
-    height: 6px;
-    border: 1px solid  #fcf6fb;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:430px;
+.entree h2{
+    margin:0;padding:0;padding-top:8px;width: 569px;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
 }
-#progress1 {
-    width: 70%;
-    background-color:rgb(211,140,48);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(211,140,48);
-    animation-name: soulignebar1;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
+.entree h2{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(199, 116, 18, 1) 0%, rgba(199, 116, 18, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
 }
-@keyframes soulignebar1 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
-}
-#soulignebar2 {
-    width: 43%;
-    height: 6px;
-    border: 1px solid #fcf6fb ;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:430px;
-}
-#progress2 {
-    width: 70%;
-    background-color:rgb(145, 60, 145);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(145, 60, 145);
-    animation-name: soulignebar2;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-}
-@keyframes soulignebar2 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
+  
+.entree h2:hover {
+    background-size: 100% 100%;
 }
 
-#soulignebar3 {
-    width: 43%;
-    height: 6px;
-    border: 1px solid #fcf6fb ;
-    border-radius:7px;
-    padding: 4px;
-    margin-left:430px;
-}
-#progress3 {
-    width: 70%;
-    background-color:rgb(39, 84, 182);
-    height: 100%;
-    border-radius: 7px;
-    border-color:rgb(39, 84, 182);
-    animation-name: soulignebar3;
-    animation-iteration-count: 1;
-    animation-duration: 2s;
-}
-@keyframes soulignebar3 {
-    0% {
-    width: 5%;
-    }
-    
-    100%  {
-    width: 80%;
-    }   
-}
-
-h2{
-    margin:0;padding:0;
-    width: 320px;margin-top: 1%;padding-bottom: 1%;
-    font-family:'Brush Scipt MT';text-align: center;font-size: 1.8rem;
-}
-
-   
 .entree h3{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 400px solid rgb(211,140,48); 
-    margin-left:3%; margin-right:3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(199,116,18); 
 }
+
 .entree h4{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 400px solid rgb(211,140,48);  
-    margin-left: 3%; margin-right: 3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(199,116,18);  
 }
+
+.plat h2{
+    margin:0;padding:0;padding-top:8px;width: 569px;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
+}
+
+.plat h2{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(157, 98, 219, 1) 0%, rgba(157, 98, 219, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+  
+.plat h2:hover {
+    background-size: 100% 100%;
+}
+
 .plat h3{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 400px solid rgb(145, 60, 145); 
-    margin-left:3%; margin-right:3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(157,98,219); 
 }
+
 .plat h4{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 400px solid rgb(145, 60, 145);  
-    margin-left: 3%; margin-right: 3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(157,98,219);  
 }
+
+.dessert h2{
+    margin:0;padding:0;padding-top:8px;width: 569px;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
+}
+
+.dessert h2{
+    text-decoration: none;
+    background:linear-gradient(to top, rgba(110, 76, 204, 1) 0%, rgba(110, 76, 204, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+    transition: background-size .5s;
+}
+  
+.dessert h2:hover {
+    background-size: 100% 100%;
+}
+
 .dessert h3{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 400px solid rgb(39, 84, 182); 
-    margin-left:3%; margin-right:3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(110, 76, 204); 
 }
+
 .dessert h4{
-    width: 0;height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 400px solid rgb(39, 84, 182) ;  
-    margin-left: 3%; margin-right: 3%;
+    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(110, 76, 204) ;  
 }
-
-
 
 .section{
-    flex-direction: column;
-    padding:0;margin:0;
+    flex-direction: column;padding:0;margin:0;
 }
+
 .entree{
-    color:rgb(211,140,48);
-    padding-bottom: 3%;
+    color:rgb(211,140,48);padding-top: 2%;
 }
 .plat{
-    color:rgb(145, 60, 145);
-    padding-bottom: 3%;
+    color:rgb(145, 60, 145);padding-top: 2%;
 }
 .dessert{
-    color:rgb(39, 84, 182);
-    padding-bottom: 15%;
+    color:rgb(39, 84, 182);padding-top: 2%;
 }
+
 .ligne{
-    display: flex;
-    flex-direction: row;
+    display: flex;flex-direction: row;
 }
 .texte{
-    width:70%;
+    width:1000px;padding-left: 100px;
 }
 .texte p{
-    font-size: 1.5rem;
-    font-family: 'Brush Scipt MT';
-    margin-left:14%;
+    width:70%;font-size: 1.5rem;text-align: left;font-family: 'Brush Scipt MT';
 }
 .prix{
-    width: 30%;
+    width: 139px;padding-right: 100px;
 }
 .prix p{
-    font-size: 1.5rem;
-    margin-right:50%;
-    text-align: right;
+    font-size: 1.5rem;margin-right:50%;text-align: right;
 }
 
 footer{
-    background-color:white;
-    width: 100%;
-    position: fixed;
-    right:0px;
-    left:0px;
-    bottom:0px;
+    background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
 }
 
 .bouton_prochainement{
-    width: 16%;
-    margin: auto;text-align: center;
-    background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);border-radius: 10px;
+    width: 30%; margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
 
 .bouton_prochainement a{
-    color:#faac03;
-    text-decoration: none;font-size: 2rem;padding-right: 2%;   
+    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; 
 }
-
+.bouton_prochainement i{
+    padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
+}
 
 .one{             /*animation trois points*/
     opacity: 0;
@@ -251,7 +157,6 @@ footer{
     animation: dot 2s infinite;
     animation-delay: 0.5s;
 }
-
 .two{
     opacity: 0;
     -webkit-animation: dot 3s infinite;
@@ -259,7 +164,6 @@ footer{
     animation: dot 2s infinite;
     animation-delay: 1s;
 }
-
 .three{
     opacity: 0;
     -webkit-animation: dot 3s infinite;
@@ -279,6 +183,7 @@ footer{
         opacity: 1;
     }
 }
+
 @keyframes dot {
     0% {
         opacity: 0;
@@ -293,54 +198,202 @@ footer{
 
 
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;flex-direction: row;
-    margin-top: 1%;padding-bottom: 0%;
+    display: flex;flex-direction: row;margin-top: 2%;
 }
 
 
 .bouton_mentions{
-    width: 50%;text-align: center;
-    background-color:rgb(7,102,16);border:2px solid rgb(7,102,16);
-    flex-direction: row;
-    text-align: left;padding-left: 1%;
+    padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
-
 .bouton_mentions h5{
-    color:#faac03;
-    font-size: 1.5rem; 
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left: 2%;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
     transition-property: transform;
     transition-timing-function: ease;
-    font-family: Arial;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
 }
 
-
-
 .bouton_contact{
-    width: 50%;text-align: center;
-    background-color:rgb(7,102,16); border:2px solid rgb(7,102,16);
-    flex-direction: row;
-    text-align:right;padding-right: 1%;
+    width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:#faac03;
-    font-size: 1.5rem; 
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
     transition-property: transform;
-    transition-timing-function: ease;
-    font-family: Arial;
+    transition-timing-function: ease;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
+
+/*___________________________________________________________________________________________________________________________________*/
+
+@media all and (max-width:1024px){
+    body{
+        margin:0;padding:0;
+    }
+    header{
+        height: 150px;display:flex;flex-direction: column;
+    }
+    header h1{
+        text-align: center;font-size: 3rem;margin:0;margin-top: 5%;
+    }
+    
+    .menu{
+        width: 90%; height: auto;margin-left:5%;margin-top:2%;margin-bottom:0;
+    }
+    .presentation{
+        height: 200px;
+    }
+
+    .presentation h1{
+        padding-top:20%;text-align: center;margin:auto;
+        font-family: 'Croissant One';font-weight: bold;font-size: 20px;width: 90%;
+    }
+    section{
+        width: 90%;
+    }
+    .titre{
+        display:flex;flex-direction: row;width: 90%;padding-bottom: 2%;margin:auto;
+    }
+    .entree{
+        width: 100%;margin: 0;padding: 0;margin-left: 0;
+    }
+    .entree h2{
+        margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
+    }
+    .entree h2{
+        text-decoration: none;
+        background:linear-gradient(to top, rgba(199, 116, 18, 1) 0%, rgba(199, 116, 18, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+    }
+      
+    .entree h2:hover {
+        background-size: 100% 100%;
+    }
+    h3{
+        display:none;
+    }
+    h4{
+        display:none;
+    }
+    .entree h6{
+        background-color: rgb(199,116,18);width: 20%;height: 5px;
+    }
+    .texte{
+        margin:0; padding:0;width:80%;
+    }
+    .texte p{
+        font-size: 1rem;
+    }
+    .prix{
+        padding:0;width: 20%;
+    }
+    .prix p{
+        font-size: 1rem;
+    }
+    .plat{
+        width: 100%;margin: 0;padding: 0;margin-left: 0;
+    }
+    .plat h2{
+        margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
+    }
+    .plat h2{
+        text-decoration: none;
+        background:linear-gradient(to top, rgba(157, 98, 219, 1) 0%, rgba(157, 98, 219, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+    }
+      
+    .plat h2:hover{
+        background-size: 100% 100%;
+    }
+    .plat h6{
+       background-color: rgb(157,98,219);width: 20%;height: 5px;
+    }
+
+    .dessert{
+        width: 100%;margin: 0;padding: 0;margin-left: 0;
+    }
+    .dessert h2{
+        margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
+    }
+    .dessert h2{
+        text-decoration: none;
+        background:linear-gradient(to top, rgba(110, 76, 204, 1) 0%, rgba(110, 76, 204, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+        transition: background-size .5s;
+    }
+      
+    .dessert h2:hover{
+        background-size: 100% 100%;
+    }
+    .dessert h6{
+       background-color: rgb(110, 76, 204);width: 20%;height: 5px;
+    }
+    
+    footer{
+        background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
+    }
+    
+    .bouton_prochainement{
+        width: 50%;text-align: center;
+    }
+    
+    .bouton_prochainement a{
+        font-size: 1rem;font-family: Arial, sans-serif;font-weight: bold;
+    }
+    .bouton_prochainement i{
+        padding-right: 2%;
+    }
+    .bouton_prochainement p{
+        margin:0;padding:0;margin:9px;
+    }
+    
+    .bandeau_bas{   /*bande du bas mentions et contact*/
+        display: flex;flex-direction: row;margin:0;margin-top: 4%;height: 80px;
+    }
+    .bouton_mentions{
+        padding:0;width: 50%;padding-left: 2%;
+        text-align: left;
+    }
+    .bouton_mentions a{
+        padding:0;
+    }
+    .bouton_mentions h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+    }
+    .bouton_mentions h5:hover{
+        transform:translateX(0px);
+    }
+    .bouton_contact{
+        width: 50%;text-align: center;padding-right: 2%;
+        flex-direction: row;text-align:right;
+    }
+    .bouton_contact a{
+        text-decoration: none;padding:0;
+    } 
+    .bouton_contact h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+       
+    }
+    .bouton_contact h5:hover{
+        transform:translate(0px,0px);
+    
+    }
+
+}
+
+
+
+
+
+
