@@ -27,7 +27,7 @@ p{
     text-align: center;height: 20%;font-size: 3rem;font-family: 'Kaushan Script';
 }
 .presentation h1{
-    margin-top: 5%; padding-top: 50px;padding-bottom: 50px;
+    margin:auto; padding-top: 50px;padding-bottom: 50px;
     background: linear-gradient( to right,rgb(66, 151, 60),rgb(174, 225, 147),rgb(191, 255, 126));
     -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
     -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
@@ -41,52 +41,23 @@ section{
     display:flex;flex-direction: row;width: 100%;padding-bottom: 40px;padding-top: 40px;
 }
 
-.entree h2{
+.entree h2, .plat h2, .dessert h2{
     margin:0;padding:0;padding-top:6px;width: 30%;font-family:'Bradley Hand ITC';text-align: center;font-size: 2rem;
 }
 
-.entree h2{
+.entree h2, .plat h2, .dessert h2{
     text-decoration: none;
     background:linear-gradient(to top, rgba(191, 255, 126, 1) 0%, rgba(191, 255, 126, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
   
-.entree h2:hover {
+.entree h2:hover, .plat h2:hover, .dessert h2:hover {
     background-size: 100% 100%;
 }
 
-section h3{
+section h3, section h4{
     width:  35% ; height: 6px;
 }   
-section h4{
-    width:  35% ; height: 6px;
-}
-.plat h2{
-    margin:0;padding:0;padding-top:6px;width: 30%;font-family:'Bradley Hand ITC';text-align: center;font-size: 2rem;
-}
-
-.plat h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(191, 255, 126, 1) 0%, rgba(191, 255, 126, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
-}
-
-.plat h2:hover {
-    background-size: 100% 100%;
-}
-
-.dessert h2{
-    margin:0;padding:0;padding-top:6px;width: 30%;font-family:'Bradley Hand ITC';text-align: center;font-size: 2rem;
-}
-
-.dessert h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(191, 255, 126, 1) 0%, rgba(191, 255, 126, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
-}
-.dessert h2:hover {
-    background-size: 100% 100%;
-}
 
 .ligne{
     display: flex;flex-direction: row;
@@ -212,6 +183,106 @@ footer{
     transform:translate(-200px,0px);
 }
 
+/*_______________________________________________________________________________________________________________________________*/
 
+@media all and (max-width:1024px)         
+{
+    body, .menu{
+        width: 100%;margin:0;
+    }
+    
+    .presentation{
+        text-align: center;height: 20%;font-size: 1.7rem;font-family: 'Kaushan Script';
+    }
+    
+    section{
+        width: 90%;margin:auto;
+    }
+    .entree h2, .plat h2, .dessert h2{
+        margin:0;padding:0;width:60%;text-align: center;font-size: 1.2rem;
+    }
+    .entree h2:hover, .plat h2:hover, .dessert h2:hover{
+        background-size: 0% 0%;
+    }
+    .entree h3, .plat h3, .dessert h3, .entree h4, .plat h4, .dessert h4{
+        padding:0;margin:0;height: 24px;
+    }   
+    h3 img, h4 img {
+        padding:0;margin:0;width: 70%;
+    }
+    h3 img{
+        padding-bottom: 1.5%;
+    }
+    h4 img{
+        padding-left: 30%;
+    }
+    .texte{
+        width:80%;padding:0;margin:0;
+    }
+    
+    .texte p{
+        margin:0;font-size: 1.2rem;text-align: left;font-family: 'Kaushan Script';margin-bottom: 5%;
+    }
+    .prix{
+        width: 20%;padding:0;margin:0;
+    }
+    .prix p{
+        padding:0;margin:0;font-size: 1.2rem;text-align: right; font-family:'Kaushan Script';
+    }
+    footer{
+        background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
+    }
+    
+    .bouton_prochainement{
+        width: 50%;text-align: center;
+    }
+    
+    .bouton_prochainement a{
+        font-size: 1rem; font-family: Arial, sans-serif;font-weight: bold;
+    }
+    .bouton_prochainement i{
+        padding-right: 2%;
+    }
+    .bouton_prochainement p{
+        margin:9px;
+    }
+    
+    
+    .bandeau_bas{   /*bande du bas mentions et contact*/
+        display: flex;flex-direction: row;margin:0;margin-top: 4%;height: 80px;
+    }
+    .bouton_mentions{
+        padding:0;width: 50%;padding-left: 2%;
+        text-align: left;
+    }
+    .bouton_mentions a{
+        text-decoration: none;
+    }
+    .bouton_mentions h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+    }
+    .bouton_mentions h5:hover{
+        transform:translateX(0px);
+    }
+    .bouton_contact{
+        width: 50%;text-align: center;
+        flex-direction: row;text-align:right;padding-right: 2%;
+    }
+    .bouton_contact a{
+        text-decoration: none;
+    } 
+    .bouton_contact h5{
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+       
+    }
+    .bouton_contact h5:hover{
+        transform:translate(0px,0px);
+    
+    }
+    
+
+
+
+}
 
 
