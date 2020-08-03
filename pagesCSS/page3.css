@@ -45,7 +45,7 @@ section{
 }
 
 .entree h2{
-    margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
+    margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
 }
 .entree h2{
     text-decoration: none;
@@ -66,7 +66,7 @@ section{
 }
 
 .plat h2{
-    text-decoration: none;margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
+    text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
     background:linear-gradient(to top, rgba(61, 159, 250, 1) 0%, rgba(61, 159, 250, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
@@ -84,7 +84,7 @@ section{
 }
 
 .dessert h2{
-    text-decoration: none;margin:0;padding:0;padding-top:8px;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
+    text-decoration: none;margin:0;padding:0;margin:auto;width: 509px;font-family:'Bradley Hand ITC';font-weight: bold;text-align: center;font-size: 1.8rem;
     background:linear-gradient(to top, rgba(108, 178, 249, 1) 0%, rgba(108, 178, 249, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
