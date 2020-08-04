@@ -8,6 +8,9 @@
 }
 @font-face{font-family: 'Bradley Hand ITC';src:url('fonts/bradhitc.ttf');
 }
+@font-face{font-family: 'Eras Bold';src:url('fonts/ERASBD.TTF');/*font pour ohmyfood*/
+}
+
 
 body{
     display:flex;flex-direction: column;padding:0;margin:0;
@@ -16,7 +19,7 @@ header{
     background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 header h1{
-    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
+    color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
 }
 section{
     background-color: white;display: flex;flex-wrap: wrap;justify-content: space-around;margin-top: 6%;margin-bottom: 300px;height:auto;
@@ -28,10 +31,19 @@ section{
     margin-right: 2%;margin-bottom: 3%; 
 }
 .bouton_menu1{
-    width:280px;height:200px;margin:auto;padding:0;transition-property: transform;transition:1s;padding-top:100px;padding-bottom: 100px;
+    width:280px;height:200px;margin:auto;padding:0;background-color:rgba(252, 223, 219,0);transition-property: transform;transition:1s;padding-top:100px;padding-bottom: 100px;
 }  
-.bouton_menu1:hover, .bouton_menu2:hover, .bouton_menu3:hover, .bouton_menu4:hover{           /*animation zoom*/  
-    transform:scale(1.3);
+.bouton_menu1:hover{           /*animation zoom*/  
+    transform:scale(1.3); background-color: rgba(252, 223, 219,1);
+}
+.bouton_menu2:hover{
+    transform:scale(1.3); background-color: rgba(255, 245,254,1);
+}
+.bouton_menu3:hover{
+    transform:scale(1.3); background-color: rgba(249,249,249,1);
+}
+.bouton_menu4:hover{
+    transform:scale(1.3); background-color: rgba(253, 253, 253,1);
 }
 .bouton_menu1 h1{
     text-align: center;color:rgb(41, 14, 18);font-family: 'Brush Script MT'; font-size: 1.9em;
@@ -50,7 +62,7 @@ section{
     background-color:rgb(255, 245, 254);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;margin-right: 2%;height: 400px;width: 300px;
 }
 .bouton_menu2{
-    height:200px;padding-top:100px;padding-bottom:100px;transition-property: transform;transition:1s;
+    height:200px;padding-top:100px;padding-bottom:100px;background-color:rgba(255, 245, 254,0);transition-property: transform;transition:1s;
 }
 .bouton_menu2 h1{
     padding:0px;text-align: center; padding-top:50px;font-family: 'Croissant One';font-size: 1.2em;color:rgb(211, 140, 48);background: linear-gradient( to right,rgb(199, 116, 18),rgb(157, 98, 219));
@@ -69,7 +81,7 @@ section{
     background-color:rgb(249,249,249);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;margin-right: 2%; height: 400px;width: 300px;
 }
 .bouton_menu3{
-    height:200px;padding-top:100px;padding-bottom:100px;transition-property: transform;transition:1s;
+    height:200px;padding-top:100px;padding-bottom:100px;background-color:rgba(249,249,249,0);transition-property: transform;transition:1s;
 }
 .bouton_menu3 h1{
     padding:0px;text-align: center;padding-top:35px;color:rgb(4,49,223);font-size: 1.9rem;font-family: 'Alex Brush';background: linear-gradient( to right,rgb(4,49,223),rgb(108,178,249));
@@ -85,7 +97,7 @@ section{
     background-color:rgb(253,253,253);box-shadow: 1px 1px 12px rgb(209, 205, 205);border-radius: 1%;height: 400px;width: 300px;
 }
 .bouton_menu4{
-    height:200px;width:280px;margin:auto;padding-top:100px;padding-bottom:100px;transition-property:transform;transition:1s;
+    height:200px;width:280px;margin:auto;padding-top:100px;padding-bottom:100px;background-color:rgba(253, 253, 253,0);transition-property:transform;transition:1s;
 }
 .bouton_menu4 h1{
     text-align: center;padding-top:35px;font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;color:rgb(66,151,60);background: linear-gradient( to right, rgb(66,151,60),rgb(174,225,147));

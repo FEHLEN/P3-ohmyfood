@@ -1,21 +1,19 @@
 @font-face{
     font-family: 'Kaushan Script';
     src:url('../fonts/KaushanScript-Regular.otf');
-    
+}
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');
 }
 
 body{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-   
+    width: 100%;margin: 0px;padding: 0px;
 }
 header{
-    background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
+    width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 
 header h1{
-    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 2%;
+    color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;margin:0px;padding-top: 2%;
 }
 p{
     width: 100%;text-align: center;font-size: 1.5rem;
@@ -24,9 +22,8 @@ p{
 .menu{
     width: 80%; height:auto;margin:auto;
     margin-top:2%;
-    margin-bottom: 250px;
-    background-color: rgb(252, 223, 219);
-    background: linear-gradient( to bottom, rgb(252, 223, 219),rgb(253, 248, 247));  
+    padding-bottom: 300px;
+    background-color: rgb(252, 223, 219); 
 }
 .presentation{
     text-align: center;padding-top:5%;padding-bottom: 5%;
@@ -44,9 +41,7 @@ p{
 section{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding-bottom: 4%;
-    
+    width: 90%;margin:auto;
 }
 
 .titre{
@@ -57,10 +52,10 @@ section{
 h2{
     margin:0;
     padding:0;
-    width: 30%;
+    width: 40%;
     font-family:'Kaushan Script';
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 h2{
     text-decoration: none;
@@ -74,11 +69,11 @@ h2:hover {
 
    
 h3{
-    width: 30%;margin-left: 10%;
-    border-bottom:10px solid rgba(60, 18, 24, 1);
+    margin:0;width: 30%;
+    border-bottom:10px solid rgba(60, 18, 24, 1);margin-bottom: 15px;
 }
 h4{
-    width: 30%;margin-right: 10%;
+    margin:0;width: 30%;
     border-bottom:10px solid rgba(60, 18, 24, 1);
 }
 
@@ -87,7 +82,7 @@ h4{
     flex-direction: row;
 }
 .texte{
-    width:70%;margin-left:10%;
+    width:70%;
 }
 
 .texte p{
@@ -126,19 +121,22 @@ h4{
 }
 
 footer{
-    background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
+    background-color:white;width: 100%;height:160px;position: fixed;left:0px;bottom:0px;
 }
 
 .bouton_prochainement{
-    width: 50%; margin: auto;text-align: center;
-    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
+    width: 30%;text-align: center;height: 60px;margin:auto;
+    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 17px;
 }
 
 .bouton_prochainement a{
-    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; 
+    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif;font-weight: bold;
 }
 .bouton_prochainement i{
     padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
+}
+.bouton_prochainement p{
+    margin:0px;margin-top:10px;
 }
 
 .one{             /*animation trois points*/
@@ -189,23 +187,23 @@ footer{
 
 
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;flex-direction: row;margin-top: 2%;
+    display: flex;flex-direction: row;height:100px;width:80%;margin:auto;margin-top: 1%;
 }
 
 
 .bouton_mentions{
     padding:0;width: 50%;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
+    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
 .bouton_mentions h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left: 2%;
-    transition-duration: 0.3s;
+    padding:0;margin:0;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 17px;
+    transition-duration: 0.2s;
     transition-delay: 0.2s;
     transition-property: transform;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
@@ -213,34 +211,37 @@ footer{
 
 .bouton_contact{
     width: 50%;text-align: center;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
+    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;
-    transition-duration: 0.3s;
+    padding:0;margin:0;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top:17px;
+    transition-duration: 0.2s;
     transition-delay: 0.2s;
     transition-property: transform;
-    transition-timing-function: ease;  
+    transition-timing-function: ease-in-out;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
 
-
+/*______________________________________________________________________________________________________________________________________*/
 
 @media all and (max-width : 1024px) /*tous les écrans de moins de 1024px)*/
 {
+    body{
+        display:flex;flex-direction: column;
+    }
     header{
-        height: 150px;display:flex;flex-direction: column;
+        width:100%;height: 90px;display:flex;flex-direction: column;
     }
     header h1{
-        text-align: center;font-size: 3rem;margin-top: 20px;
+        text-align: center;font-size: 3rem;margin-top: 10px;
     }
     .menu{
-        width: 90%; height: auto;margin-top:2%;margin-bottom: 190px;
+        width: 90%; height: auto;margin-top:2%;padding-bottom: 190px;
     }
     .presentation{
         text-align: center;color:rgb(41, 14, 18);height: auto;font-size: 1.8rem;font-family: 'Brush Script MT';
@@ -286,7 +287,7 @@ footer{
 
 
     footer{
-        background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
+        background-color:white;width: 100%;height:143px;position: fixed;left:0px;bottom:0px;
     }
     
     .bouton_prochainement{
@@ -305,7 +306,7 @@ footer{
     
     
     .bandeau_bas{   /*bande du bas mentions et contact*/
-        display: flex;flex-direction: row;margin:0;margin-top: 4%;height: 80px;
+        display: flex;flex-direction: row;width:100%;margin-top: 4%;height: 80px;
     }
     .bouton_mentions{
         padding:0;width: 50%;padding-left: 2%;
@@ -315,7 +316,7 @@ footer{
         text-decoration: none;
     }
     .bouton_mentions h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
     }
     .bouton_mentions h5:hover{
         transform:translateX(0px);
@@ -328,7 +329,7 @@ footer{
         text-decoration: none;
     } 
     .bouton_contact h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 28px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
        
     }
     .bouton_contact h5:hover{

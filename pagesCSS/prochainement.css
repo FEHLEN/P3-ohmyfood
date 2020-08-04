@@ -1,14 +1,18 @@
+
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
+}
+
 body{
-    width: 50%;margin:auto;
+    width: 80%;margin:auto;
 }
 header{
     background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 header h1{
-    color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding:auto;
+    color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;margin:0px;padding-top:2%;
 }
 section{
-    background-color: rgb(249,249,249);height: 380px;
+    background-color: rgb(249,249,249);height: 450px;
 }
 h1{
     padding-top: 6%;
@@ -17,14 +21,14 @@ h1, h2, h3{
     color:rgb(87, 156, 135); text-align: center;
 }
 footer{
-    background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
+    background-color:white;width: 100%;position: fixed;left:0px;bottom:0px;
 }
 
 .bouton_accueil{
-    width: 30%; margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
+    width: 30%; height:60px;margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
 .bouton_accueil a{
-    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; 
+    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; font-weight: bold;
 }
 .bouton_accueil i{
     padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
@@ -74,7 +78,7 @@ footer{
     }
 }
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;flex-direction: row;width: 50%; margin:auto;   margin-top: 2%;
+    display: flex;flex-direction: row;width: 80%;height:100px; margin:auto;   margin-top: 1%;
 }
 .bouton_mentions{
     padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
@@ -83,11 +87,11 @@ footer{
     text-decoration: none;
 }
 .bouton_mentions h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left: 2%;
-    transition-duration: 0.3s;
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 20px;
+    transition-duration: 0.2s;
     transition-delay: 0.2s;
     transition-property: transform;
-    transition-timing-function: ease;
+    transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
@@ -99,7 +103,7 @@ footer{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top: 20px;
     transition-duration: 0.3s;
     transition-delay: 0.2s;
     transition-property: transform;
@@ -109,14 +113,19 @@ footer{
     transform:translate(-200px,0px);
 }
 
+/*_____________________________________________________________________________________________________________________________________*/
 
 @media all and (max-width : 1024px){
     body{
-        width:100%;
+        width:100%;display:flex;flex-direction: column;
     }
     header{
-        height: 150px;display:flex;flex-direction: column;
-    } 
+        width:100%;height: 90px;
+    }
+    section{
+        margin-top:2%;
+    }
+    
     header, section, footer, .bandeau_bas{
         width: 100%;
     }
@@ -124,7 +133,7 @@ footer{
         transform: translate(0px);
     }
     footer{
-        background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
+        background-color:white;width: 100%;height:143px;position: fixed;left:0px;bottom:0px;
     }
     
     .bouton_accueil{
@@ -147,7 +156,7 @@ footer{
         text-decoration: none;
     }
     .bouton_mentions h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
     }
     .bouton_mentions h5:hover{
         transform:translateX(0px);
@@ -160,7 +169,7 @@ footer{
         text-decoration: none;
     } 
     .bouton_contact h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
     }
     .bouton_contact h5:hover{
         transform:translate(0px,0px);
