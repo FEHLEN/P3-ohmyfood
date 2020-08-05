@@ -223,7 +223,7 @@ footer{
         text-align: center;font-size: 3rem;margin-top: 10px;
     }
     .menu{
-        width: 90%; height: auto;margin-top:2%;padding-bottom: 190px;
+        width: 100%; height: auto;margin-top:2%;padding-bottom: 190px;
     }
     .presentation{
         text-align: center;color:rgb(41, 14, 18);height: auto;font-size: 1.8rem;font-family: 'Brush Script MT';
@@ -236,7 +236,7 @@ footer{
     }
     
     h2{
-        margin:0px;padding:0px;width:42%;font-family:'Kaushan Script';text-align: center;font-size: 1.5rem;
+        background:transparent; margin:0px;padding:0px;width:42%;font-family:'Kaushan Script';text-align: center;font-size: 1.5rem; transition: background-size .0s;
     }
        
     h3{

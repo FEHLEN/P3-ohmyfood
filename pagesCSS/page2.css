@@ -250,7 +250,7 @@ footer{
         font-family: 'Croissant One';font-weight: bold;font-size: 25px;
     }
     section{
-        width: 90%;
+        width: 100%;
     }
     .titre{
         display:flex;flex-direction: row;height:30px;margin:0;padding:0;width: 100%;
