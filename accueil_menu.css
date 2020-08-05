@@ -50,7 +50,7 @@ section{
 }
 .bouton_menu1 i{
     margin-left:45%;color:rgb(240, 82, 97);padding-top:0;text-align: center;color:rgba(153, 38, 179); font-size:3rem;background: linear-gradient( to right, rgba(240, 82, 97, 1),rgb(246, 145, 106));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color: transparent;
 }
 .bouton_menu1 p{
@@ -66,7 +66,7 @@ section{
 }
 .bouton_menu2 h2{
     padding:0px;text-align: center; padding-top:50px;font-family: 'Croissant One';font-size: 1.2em;color:rgb(211, 140, 48);background: linear-gradient( to right,rgb(199, 116, 18),rgb(157, 98, 219));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color: transparent;
 }
 .bouton_menu1 a, .bouton_menu2 a, .bouton_menu3 a, .bouton_menu4 a{
@@ -85,7 +85,7 @@ section{
 }
 .bouton_menu3 h2{
     padding:0px;text-align: center;padding-top:35px;color:rgb(4,49,223);font-size: 1.9rem;font-family: 'Alex Brush';background: linear-gradient( to right,rgb(4,49,223),rgb(108,178,249));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color: transparent; 
 }
 .bouton_menu3 p{
@@ -101,7 +101,7 @@ section{
 }
 .bouton_menu4 h2{
     text-align: center;padding-top:35px;font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;color:rgb(66,151,60);background: linear-gradient( to right, rgb(66,151,60),rgb(174,225,147));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color: transparent;
 }
 .bouton_menu4 p{

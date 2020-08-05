@@ -25,10 +25,11 @@ p{
     width: 80%;margin:auto;margin-top: 2%;background-color:  rgb(255,245,254);padding-bottom: 220px;
 }
 .presentation{
-    height: 450px;background: linear-gradient( to right,rgb(199,116,18),rgb(157,98,219),rgb(204,172,252));
-    background-clip: text;
-    color:transparent;
     font-family: 'Croissant One';font-weight: bold;font-size: 40px;width: 80%;margin:auto;margin-top:2% ;
+    height: 450px;background: linear-gradient( to right,rgb(199,116,18),rgb(157,98,219),rgb(204,172,252));
+    background-clip: text;-webkit-background-clip: text;
+    color:transparent;
+    
 }
 
 .presentation h1{

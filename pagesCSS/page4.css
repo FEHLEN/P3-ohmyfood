@@ -30,7 +30,7 @@ p{
 .presentation h1{
     margin:auto; padding-top: 50px;padding-bottom: 50px;
     background: linear-gradient( to right,rgb(66, 151, 60),rgb(174, 225, 147),rgb(191, 255, 126));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color:transparent;
 }
 

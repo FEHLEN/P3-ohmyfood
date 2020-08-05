@@ -31,7 +31,7 @@ p{
 }
 .presentation{
     text-align: center;height:350px;font-size: 2.5rem; background: linear-gradient( to right,rgb(4, 49, 223), rgb(61, 159, 250), rgb(108, 178, 249));
-    background-clip: text;
+    background-clip: text;-webkit-background-clip: text;
     color:transparent;
 }
 .presentation h1{
