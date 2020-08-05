@@ -239,7 +239,7 @@ footer{
     }
     
     .menu{
-        width: 100%; height: auto;margin-left:5%;margin-top:2%;padding-bottom:200px;
+        width: 100%; height: auto;margin-top:2%;padding-bottom:200px;
     }
     .presentation{
         height: 200px;width: 80%;margin:auto;
@@ -283,33 +283,33 @@ footer{
         font-size: 1rem;
     }
     .plat{
-        width: 100%;margin: 0;padding: 0;margin-left: 0;
+        width: 100%;margin: 0px;padding: 0px;margin-left: 0px;
     }
     .plat h2{
         text-decoration:none;background:none;margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
     }
     
     .plat h3{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(145, 60, 145);margin-top: 10px;
+        margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
     
     .plat h4{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(145, 60, 145);margin-top: 10px;
+        margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
 
     .dessert{
-        width: 100%;margin: 0;padding: 0;margin-left: 0;
+        width: 100%;margin: 0px;padding: 0px;margin-left: 0px;
     }
     .dessert h2{
         text-decoration:none;background:none;margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
     }
     
     .dessert h3{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(39, 84, 182);margin-top: 10px;
+        margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
     
     .dessert h4{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(39, 84, 182);margin-top: 10px;
+        margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
     
     footer{
@@ -327,7 +327,7 @@ footer{
         padding-right: 2%;
     }
     .bouton_prochainement p{
-        margin:0;padding:0;margin:9px;
+        margin:0px;padding:0px;margin:9px;
     }
     
     .bandeau_bas{   /*bande du bas mentions et contact*/
@@ -338,10 +338,10 @@ footer{
         text-align: left;
     }
     .bouton_mentions a{
-        padding:0;
+        padding:0px;
     }
     .bouton_mentions h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
+        padding:0px;margin:0px;font-size: 1rem;font-family: Arial;padding-top: 20px;
     }
     .bouton_mentions h5:hover{
         transform:translateX(0px);
@@ -351,10 +351,10 @@ footer{
         flex-direction: row;text-align:right;
     }
     .bouton_contact a{
-        text-decoration: none;padding:0;
+        text-decoration: none;padding:0px;
     } 
     .bouton_contact h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
+        padding:0px;margin:0px;font-size: 1rem;font-family: Arial;padding-top: 20px;
        
     }
     .bouton_contact h5:hover{
