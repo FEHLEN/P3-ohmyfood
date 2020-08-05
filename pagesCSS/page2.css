@@ -263,11 +263,11 @@ footer{
     }
     
     .entree h3{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 125px solid rgb(199,116,18);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(199,116,18);margin-top: 10px;
     }
     
     .entree h4{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 125px solid rgb(199,116,18);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(199,116,18);margin-top: 10px;
     }
     
     .texte{
@@ -290,11 +290,11 @@ footer{
     }
     
     .plat h3{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 125px solid rgb(145, 60, 145);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
     
     .plat h4{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 125px solid rgb(145, 60, 145);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
 
     .dessert{
@@ -305,11 +305,11 @@ footer{
     }
     
     .dessert h3{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 125px solid rgb(39, 84, 182);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
     
     .dessert h4{
-        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 125px solid rgb(39, 84, 182);margin-top: 10px;
+        margin:0;padding:0;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
     
     footer{
