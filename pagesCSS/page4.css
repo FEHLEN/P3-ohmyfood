@@ -30,8 +30,8 @@ p{
 .presentation h1{
     margin:auto; padding-top: 50px;padding-bottom: 50px;
     background: linear-gradient( to right,rgb(66, 151, 60),rgb(174, 225, 147),rgb(191, 255, 126));
-    -webkit-text-fill-color: transparent;-moz-text-fill-color:transparent;-o-text-fill-color:transparent;
-    -webkit-background-clip: text;-moz-background-clip: text;background-clip: text;
+    background-clip: text;
+    color:transparent;
 }
 
 section{
@@ -87,7 +87,7 @@ footer{
 
 .bouton_prochainement{
     width: 30%; height:60px;margin: auto;text-align: center;
-    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
+    background-color:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;
 }
 
 .bouton_prochainement a{
@@ -103,39 +103,23 @@ footer{
 
 .one{             /*animation trois points*/
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 0.5s;
     animation: dot 2s infinite;
     animation-delay: 0.5s;
 }
 
 .two{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1s;
     animation: dot 2s infinite;
     animation-delay: 1s;
 }
 
 .three{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1.5s;
     animation: dot 2s infinite;
     animation-delay: 1.5s;
 }
 
-@-webkit-keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+
 @keyframes dot {
     0% {
         opacity: 0;

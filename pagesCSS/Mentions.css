@@ -11,10 +11,10 @@
 
 
 body{
-    margin:0; padding:0;width: 100%;
+    margin:0px; padding:0px;width: 100%;
 }
 header{
-    width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
+    width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgba(60, 61, 58);height: 150px; 
 }
 
 header h1{
@@ -32,20 +32,23 @@ section h1{
     border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
     padding-top:30px;padding-bottom:30px; margin-left: 55%;
 }
+aside{
+    display: flex;flex-direction: row;
+}
 h3{
     background-color:rgb(87, 156, 135);
     height: 50px; width: 150px;text-align: center;padding-top: 2%;
-    margin-left: 10%; color:rgb(253, 203, 70); font-family: 'Cooper Black';
+    margin-left: 10%; color:rgb(253, 203, 70); font-family: 'Eras Bold';
     
 }
 h4{
-    font-weight: bold;
+    font-weight: bold;width: 50%;
     font-size: 1.5rem;text-align: justify;font-family:'Dancing Script' ;
-    margin-left: 12%; margin-right: 5%; padding-top: 15%;
+    margin-left: 5%; margin-right: 5%; padding-top: 10%;
 }
 nav{
     border:1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
-    width: 40%;padding-left: 2%;margin-left: 2%;margin-top: 2%;float: left;
+    width: 40%;padding-left: 2%;margin-left: 2%;float: left;
 }
 nav p{
     font-size: 1.5rem; color:rgb(87, 156, 135);font-family: Arial, sans-serif;
@@ -88,22 +91,16 @@ footer{
 
 .one{             /*animation trois points*/
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 0.5s;
     animation: dot 2s infinite;
     animation-delay: 0.5s;
 }
 .two{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1s;
     animation: dot 2s infinite;
     animation-delay: 1s;
 }
 .three{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1.5s;
     animation: dot 2s infinite;
     animation-delay: 1.5s;
 }
@@ -118,17 +115,7 @@ footer{
         opacity: 1;
     }
 }
-@-webkit-keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
+
 
 
 .bandeau_bas{   /*bande du bas mentions et contact*/
@@ -214,6 +201,9 @@ footer{
     h3{
         height: 50px; width: 150px;text-align: center;padding-top: 20px;
         margin-left: 10%;
+    }
+    h4{
+        width: 80%;margin:auto;
     }
     p{
         font-size: 1.5rem;text-align: left;
