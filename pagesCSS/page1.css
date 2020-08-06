@@ -214,7 +214,7 @@ footer{
 @media all and (max-width : 1024px) /*tous les écrans de moins de 1024px)*/
 {
     body{
-        display:flex;flex-direction: column;
+        margin:0px;padding:0px;display:flex;flex-direction: column;
     }
     header{
         width:100%;height: 90px;display:flex;flex-direction: column;
@@ -232,11 +232,11 @@ footer{
         margin-top: 4%;
     }
     section{
-        width: 100%;margin-left: 5%;
+        width: 96%;margin:auto;
     }
     
     h2{
-        background:transparent; margin:0px;padding:0px;width:42%;font-family:'Kaushan Script';text-align: center;font-size: 1.5rem; transition: background-size .0s;
+        background:transparent; margin:0px;padding:0px;width:52%;font-family:'Kaushan Script';text-align: center;font-size: 1.5rem; transition: background-size .0s;
     }
        
     h3{
@@ -251,18 +251,24 @@ footer{
         font-size: 1.5rem;text-align: left;font-family: 'Kaushan Script';
     }
     .prix{
-        width: 20%;margin:0px;
+        width: 30%;margin:0px;
     }
     .prix p{
         font-size: 1.5rem;
         text-align: right; font-family:'Kaushan Script';
     }
+    .final{
+        width: 80%;margin:auto;
+    }
+    .final i{
+        padding-left: 20%;
+    }
     
     .final p{
-        margin-left:1%;text-align: left;width: 30%;
+        text-align: left;width: 40%;
     }    
     .final h1{
-        width: 40%;text-align: right;
+        width: 60%;text-align: left;
         font-size: 2.5rem;
         font-family: 'Brush Script MT';
     }
