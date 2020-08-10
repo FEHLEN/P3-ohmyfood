@@ -26,7 +26,6 @@ h4{
 footer{
     background-color:white;width: 100%;position: fixed;left:0px;bottom:0px;
 }
-
 .bouton_accueil{
     width: 30%; height:60px;margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
@@ -36,49 +35,22 @@ footer{
 .bouton_accueil i{
     padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
 }
-
 .one{             /*animation trois points*/
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 0.5s;
-    animation: dot 2s infinite;
-    animation-delay: 0.5s;
+    -webkit-animation: dot 3s infinite;-webkit-animation-delay: 0.5s;animation: dot 2s infinite;animation-delay: 0.5s;
 }
 .two{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1s;
-    animation: dot 2s infinite;
-    animation-delay: 1s;
+    -webkit-animation: dot 3s infinite;-webkit-animation-delay: 1s;animation: dot 2s infinite;animation-delay: 1s;
 }
 .three{
     opacity: 0;
-    -webkit-animation: dot 3s infinite;
-    -webkit-animation-delay: 1.5s;
-    animation: dot 2s infinite;
-    animation-delay: 1.5s;
-}
-@-webkit-keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    -webkit-animation: dot 3s infinite;-webkit-animation-delay: 1.5s;animation: dot 2s infinite;animation-delay: 1.5s;
 }
 @keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 .bandeau_bas{   /*bande du bas mentions et contact*/
     display: flex;flex-direction: row;width: 80%;height:100px; margin:auto;   margin-top: 1%;
@@ -91,10 +63,7 @@ footer{
 }
 .bouton_mentions h5{
     color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 20px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
@@ -107,17 +76,12 @@ footer{
 } 
 .bouton_contact h5{
     color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top: 20px;
-    transition-duration: 0.3s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease;  
+    transition-duration: 0.3s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
-
 /*_____________________________________________________________________________________________________________________________________*/
-
 @media all and (max-width : 1024px){
     body{
         width:100%;display:flex;flex-direction: column;
@@ -128,7 +92,6 @@ footer{
     section{
         margin-top:2%;
     }
-    
     header, section, footer, .bandeau_bas{
         width: 100%;
     }
@@ -138,7 +101,6 @@ footer{
     footer{
         background-color:white;width: 100%;height:143px;position: fixed;left:0px;bottom:0px;
     }
-    
     .bouton_accueil{
         width: 50%; margin:auto;text-align: center;
     }
@@ -152,8 +114,7 @@ footer{
         display: flex;flex-direction: row;margin:0;margin-top: 2%;height: 80px;
     }
     .bouton_mentions{
-        padding:0;width: 50%;padding-left: 2%;
-        text-align: left;
+        padding:0;width: 50%;padding-left: 2%;text-align: left;
     }
     .bouton_mentions a{
         text-decoration: none;
@@ -165,8 +126,7 @@ footer{
         transform:translateX(0px);
     }
     .bouton_contact{
-        width: 50%;text-align: center;
-        flex-direction: row;text-align:right;padding-right: 2%;
+        width: 50%;text-align: center;flex-direction: row;text-align:right;padding-right: 2%;
     }
     .bouton_contact a{
         text-decoration: none;

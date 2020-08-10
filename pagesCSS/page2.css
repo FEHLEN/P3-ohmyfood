@@ -1,20 +1,14 @@
 @font-face{
-    font-family: 'Croissant One';
-    src:url('../fonts/croissantone-regular.ttf');/*font pour le titre du menu*/
+    font-family: 'Croissant One';src:url('../fonts/croissantone-regular.ttf');/*font pour le titre du menu*/
 }
 @font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
 }
-
-
-
 body{
     margin:0px;padding:0px;width: 100%;height: auto; 
 }
-
 header{
     padding:0px;margin:0px;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; width: 80%;margin:auto;
 }
-
 header h1{
     color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;padding:0px;margin:0px;padding-top: 2%;
 }
@@ -25,94 +19,67 @@ p{
     width: 80%;margin:auto;margin-top: 2%;background-color:  rgb(255,245,254);padding-bottom: 220px;
 }
 .presentation{
-    font-family: 'Croissant One';font-weight: bold;font-size: 40px;width: 80%;margin:auto;margin-top:2% ;
-    height: 450px;background: linear-gradient( to right,rgb(199,116,18),rgb(157,98,219),rgb(204,172,252));
-    background-clip: text;-webkit-background-clip: text;
-    color:transparent;
-    
+    font-family: 'Croissant One';font-weight: bold;font-size: 40px;width: 80%;margin:auto;margin-top:2% ;height: 450px;
+    background: linear-gradient( to right,rgb(199,116,18),rgb(157,98,219),rgb(204,172,252));
+    background-clip: text;-webkit-background-clip: text;color:transparent;   
 }
-
 .presentation h1{
     padding-top:20%;padding-bottom:5%;text-align: center;
 }
-
 section{
     margin:0;display: flex;flex-direction: column;width: 90%;margin:auto;
 }
-
 .titre{
     display:flex;flex-direction: row;width: 95%;padding-bottom: 2%;padding-left:60px;
 }
-
 .entree h2{
-    margin:0;padding:0;padding-top:8px;width:40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
+    margin:0;padding:0;padding-top:5px;width:40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
 }
 .entree h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(199, 116, 18, 1) 0%, rgba(199, 116, 18, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
+    text-decoration: none;background:linear-gradient(to top, rgba(199, 116, 18, 1) 0%, rgba(199, 116, 18, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
 }
-  
 .entree h2:hover {
     background-size: 100% 100%;
 }
-
-.entree h3{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(199,116,18); 
+.motif1{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-right: 285px solid rgb(199,116,18);margin-top: 20px;
 }
-
-.entree h4{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(199,116,18);  
+.motif2{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-left: 285px solid rgb(199,116,18);margin-top: 20px;  
 }
-
 .plat h2{
-    margin:0;padding:0;padding-top:8px;width: 40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
+    margin:0;padding:0;padding-top:5px;width: 40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
 }
-
 .plat h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(157, 98, 219, 1) 0%, rgba(157, 98, 219, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
+    text-decoration: none;background:linear-gradient(to top, rgba(157, 98, 219, 1) 0%, rgba(157, 98, 219, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
 }
-  
 .plat h2:hover {
     background-size: 100% 100%;
 }
-
-.plat h3{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(157,98,219); 
+.motif3{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-right: 285px solid rgb(157,98,219);margin-top: 20px;
 }
-
-.plat h4{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(157,98,219);  
+.motif4{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-left: 285px solid rgb(157,98,219);margin-top:20px; 
 }
-
 .dessert h2{
-    margin:0;padding:0;padding-top:8px;width: 40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
+    margin:0;padding:0;padding-top:5px;width: 40%;font-family:'Arial Script MT';text-align: center;font-size: 2rem;
 }
-
 .dessert h2{
-    text-decoration: none;
-    background:linear-gradient(to top, rgba(110, 76, 204, 1) 0%, rgba(110, 76, 204, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-    transition: background-size .5s;
+    text-decoration: none;background:linear-gradient(to top, rgba(110, 76, 204, 1) 0%, rgba(110, 76, 204, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;transition: background-size .5s;
 }
-  
 .dessert h2:hover {
     background-size: 100% 100%;
 }
-
-.dessert h3{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-right: 285px solid rgb(110, 76, 204); 
+.motif5{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-right: 285px solid rgb(110, 76, 204);margin-top:20px;
 }
-
-.dessert h4{
-    width: 0;height: 0;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 285px solid rgb(110, 76, 204) ;  
+.motif6{
+    width: 0;height: 0;border-top: 10px solid transparent;border-top: 10px solid transparent;border-left: 285px solid rgb(110, 76, 204) ;margin-top: 20px;
 }
-
 .section{
     flex-direction: column;padding:0;margin:0;
 }
-
 .entree{
     color:rgb(211,140,48);padding-top: 2%;
 }
@@ -122,7 +89,6 @@ section{
 .dessert{
     color:rgb(39, 84, 182);padding-top: 2%;
 }
-
 .ligne{
     display: flex;flex-direction: row;
 }
@@ -138,15 +104,12 @@ section{
 .prix p{
     font-size: 1.5rem;margin-right:50%;text-align: right;
 }
-
 footer{
     background-color:white;width: 100%;margin:auto;height:160px;position: fixed;right:0px;bottom:0px;
 }
-
 .bouton_prochainement{
     width: 30%; height:60px;margin: auto;text-align: center;background-color:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;
 }
-
 .bouton_prochainement a{
     color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; font-weight: bold;
 }
@@ -156,41 +119,23 @@ footer{
 .bouton_prochainement p{
     margin:0;margin-top:10px;
 }
-
 .one{             /*animation trois points*/
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 0.5s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 0.5s;
 }
 .two{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 1s;
 }
 .three{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1.5s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 1.5s;
 }
-
 @keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
-
-
 .bandeau_bas{   /*bande du bas mentions et contact*/
     display: flex;flex-direction: row;width:80%;margin:auto;height:100px;margin-top: 1%;
 }
-
-
 .bouton_mentions{
     padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgba(161, 193, 129);flex-direction: row;text-align: left;
 }
@@ -198,16 +143,11 @@ footer{
     text-decoration: none;
 }
 .bouton_mentions h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 17px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 17px;transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
 }
-
 .bouton_contact{
     width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
 }
@@ -215,18 +155,12 @@ footer{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top: 17px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;  
+    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top: 17px;transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
-
 /*___________________________________________________________________________________________________________________________________*/
-
 @media all and (max-width:1024px){
     body{
         margin:0px;padding:0px;width: 100%;
@@ -237,17 +171,14 @@ footer{
     header h1{
         text-align: center;font-size: 3rem;margin:0px;margin-top: 10px;
     }
-    
     .menu{
         width: 100%; height: auto;margin-top:2%;padding-bottom:200px;
     }
     .presentation{
         height: 180px;width: 80%;margin:auto;
     }
-
     .presentation h1{
-        padding-top:20%;text-align: center;width:100%;
-        font-family: 'Croissant One';font-weight: bold;font-size: 25px;
+        padding-top:20%;text-align: center;width:100%;font-family: 'Croissant One';font-weight: bold;font-size: 25px;
     }
     section{
         width: 100%;
@@ -261,15 +192,12 @@ footer{
     .entree h2{
         text-decoration:none;background:none;margin:auto;padding:0px;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
     }
-    
-    .entree h3{
+    .motif1{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(199,116,18);margin-top: 12px;
     }
-    
-    .entree h4{
+    .motif2{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(199,116,18);margin-top: 12px;
     }
-    
     .texte{
         padding:0px;width:80%;padding-left: 4%;
     }
@@ -288,39 +216,30 @@ footer{
     .plat h2{
         text-decoration:none;background:none;margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
     }
-    
-    .plat h3{
+    .motif3{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
-    
-    .plat h4{
+    .motif4{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(145, 60, 145);margin-top: 10px;
     }
-
     .dessert{
         width: 100%;margin: 0px;padding: 0px;margin-left: 0px;
     }
     .dessert h2{
         text-decoration:none;background:none;margin:auto;padding:0;width: 50%;font-family:'Arial Script MT';text-align: center;font-size: 1rem;
     }
-    
-    .dessert h3{
+    .motif5{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
-    
-    .dessert h4{
+    .motif6{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 115px solid rgb(39, 84, 182);margin-top: 10px;
     }
-    
-    
     footer{
         background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
     }
-    
     .bouton_prochainement{
         width: 50%;text-align: center;
     }
-    
     .bouton_prochainement a{
         font-size: 1rem;font-family: Arial, sans-serif;font-weight: bold;
     }
@@ -330,13 +249,11 @@ footer{
     .bouton_prochainement p{
         margin:0px;padding:0px;margin:9px;
     }
-    
-    .bandeau_bas{   /*bande du bas mentions et contact*/
+    .bandeau_bas{ 
         display: flex;flex-direction: row;margin:0px;width:100%;margin-top: 4%;height: 80px;
     }
     .bouton_mentions{
-        padding:0;width: 50%;padding-left: 2%;
-        text-align: left;
+        padding:0;width: 50%;padding-left: 2%;text-align: left;
     }
     .bouton_mentions a{
         padding:0px;
@@ -348,19 +265,16 @@ footer{
         transform:translateX(0px);
     }
     .bouton_contact{
-        width: 50%;text-align: center;padding-right: 2%;
-        flex-direction: row;text-align:right;
+        width: 50%;text-align: center;padding-right: 2%;flex-direction: row;text-align:right;
     }
     .bouton_contact a{
         text-decoration: none;padding:0px;
     } 
     .bouton_contact h5{
         padding:0px;margin:0px;font-size: 1rem;font-family: Arial;padding-top: 20px;
-       
     }
     .bouton_contact h5:hover{
         transform:translate(0px,0px);
-    
     }
 
 }
@@ -371,13 +285,10 @@ footer{
     }
     .entree h3, .plat h3, .dessert h3{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-right: 75px solid rgb(145, 60, 145);margin-top: 10px;
-    
     }
     .entree h4, .plat h4, .dessert h4{
         margin:0px;padding:0px;width: 0;height: 0;border-top: 5px solid transparent;border-bottom: 5px solid transparent;border-left: 75px solid rgb(145, 60, 145);margin-top: 10px;
-
-    }
-    
+    }  
 }
 
 

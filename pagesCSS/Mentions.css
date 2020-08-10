@@ -1,54 +1,38 @@
 @font-face{
-    font-family: 'Dancing Script';
-    src:url('../fonts/DancingScript-Regular.otf')
+    font-family: 'Dancing Script';src:url('../fonts/DancingScript-Regular.otf')
 }
 @font-face{
-    font-family: Courgette;
-    src:url('../fonts/Courgette-Regular.ttf')
+    font-family: Courgette;src:url('../fonts/Courgette-Regular.ttf')
 }
 @font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');/*font pour ohmyfood*/
 }
-
-
 body{
     margin:0px; padding:0px;width: 100%;
 }
 header{
     width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
-
 header h1{
     color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;margin:0px;padding-top: 2%;
 }
-
 section{
-    background-color: wheat;width: 80%;height: auto;
-    margin-top: 3%;margin-bottom: 12%;padding-bottom: 3%;margin-left: 10%; 
+    background-color: wheat;width: 80%;height: auto;margin-top: 3%;margin-bottom: 12%;padding-bottom: 3%;margin-left: 10%; 
 }
-
 section h1{
-    text-align: center; font-size: 1.7rem;font-family: 'Lucida Grande', Verdana, sans-serif;
-    width: 400px;height: 40px;
-    border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
+    text-align: center; font-size: 1.7rem;font-family: 'Lucida Grande', Verdana, sans-serif;width: 400px;height: 40px;border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
     padding-top:30px;padding-bottom:30px; margin-left: 55%;
 }
 aside{
     display: flex;flex-direction: row;
 }
 h3{
-    background-color:rgb(87, 156, 135);
-    height: 50px; width: 150px;text-align: center;padding-top: 2%;
-    margin-left: 10%; color:rgb(253, 203, 70); font-family: 'Eras Bold';
-    
+    background-color:rgb(87, 156, 135);height: 50px; width: 150px;text-align: center;padding-top: 2%;margin-left: 10%; color:rgb(253, 203, 70); font-family: 'Eras Bold';  
 }
 h4{
-    font-weight: bold;width: 50%;
-    font-size: 1.5rem;text-align: justify;font-family:'Dancing Script' ;
-    margin-left: 5%; margin-right: 5%; padding-top: 10%;
+    font-weight: bold;width: 50%;font-size: 1.5rem;text-align: justify;font-family:'Dancing Script' ;margin-left: 5%; margin-right: 5%; padding-top: 10%;
 }
 nav{
-    border:1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
-    width: 40%;padding-left: 2%;margin-left: 2%;float: left;
+    border:1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;width: 40%;padding-left: 2%;margin-left: 2%;float: left;
 }
 nav p{
     font-size: 1.5rem; color:rgb(87, 156, 135);font-family: Arial, sans-serif;
@@ -59,26 +43,18 @@ nav li{
 nav a{
     text-decoration: none;font-family: Arial, sans-serif;font-size: 1.2rem;color:black;
 }
-
 h2{
-    text-align: center; margin-top: 10%; margin-left: 3%; margin-bottom: 5%;
-    width: 400px;font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103); border-radius: 7px;
+    text-align: center; margin-top: 10%; margin-left: 3%; margin-bottom: 5%;width: 400px;font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103); border-radius: 7px;
 }
 p{
-    text-align:justify;font-size: 1.7rem;font-family: Courgette;
-    margin-left: 10%;margin-right: 10%;
+    text-align:justify;font-size: 1.7rem;font-family: Courgette;margin-left: 10%;margin-right: 10%;
 }
-
 footer{
-    background-color:white;
-    width: 100%;position: fixed;right:0px;left:0px;bottom:0px;height: 160px;
+    background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;height: 160px;
 }
 .bouton_prochainement{
-    width: 30%; height:60px;margin: auto;text-align: center;height: 64px;
-    background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
+    width: 30%; height:60px;margin: auto;text-align: center;height: 64px;background-color:rgb(87, 156, 135);border:2px solid rgb(87, 156, 135);border-radius: 10px;
 }
-
 .bouton_prochainement a{
     color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif;font-weight: bold;
 }
@@ -88,115 +64,73 @@ footer{
 .bouton_prochainement p{
     margin:0;text-align: center;padding-top: 10px;
 }
-
 .one{             /*animation trois points*/
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 0.5s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 0.5s;
 }
 .two{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 1s;
 }
 .three{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1.5s;
+    opacity: 0;animation: dot 2s infinite;animation-delay: 1.5s;
 }
 @keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
-
-
-
 .bandeau_bas{   /*bande du bas mentions et contact*/
     display: flex;flex-direction: row;height:100px;width:80%;margin:auto;margin-top: 2%;
 }
-
-
 .bouton_mentions{
-    padding:0;width: 50%;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
+    padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
 .bouton_mentions h5{
     color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top:17px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
 }
-
-
 .bouton_contact{
-    width: 50%;text-align: center;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
+    width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align:right;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
     color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top:17px;
-    transition-duration: 0.3s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease;  
+    transition-duration: 0.3s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
 }
-
-
-
-
-
 /*______________________________________________________________________________________________________________________________*/
-
 @media all and (max-width : 1024px) /*tous les écrans de moins de 1024px)*/
 {
     body{
-        display: flex;
-        flex-direction: column;
-        padding:0px;margin:0px;
+        display: flex;flex-direction: column;padding:0px;margin:0px;
     }
     header{
         background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 90px;width:100%; margin-bottom: 2%;
     }
-    
     header h1{
         color:rgb(253, 203, 70);font-family: 'Cooper Black';text-align: center;font-size: 3.5rem;margin:0;padding-top: 10px;
     }
     section{
         background-color: wheat;width: 100%;height: auto;margin:0;padding:0;padding-bottom: 175px;
-
     }
     nav{
         display: none;
     }
     section h1{
         text-align: center; font-size: 1.5rem;font-family: 'Lucida Grande', Verdana, sans-serif;
-        width: 300px;height: 20px;padding-top:2px;
-        border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;
-        margin:auto;margin-top:2rem;
+        width: 300px;height: 20px;padding-top:2px;border-bottom :1px solid rgb(105, 103, 103);box-shadow: 3px 3px 3px rgb(105, 103, 103);border-radius: 7px;margin:auto;margin-top:2rem;
     }
-
     h2{
-        text-align: center;
-        width: 300px;
+        text-align: center;width: 300px;
     }
     h3{
         height: 50px; width: 150px;text-align: center;padding-top: 20px;
@@ -211,11 +145,9 @@ footer{
     footer{
         background-color:white;width: 100%;height:143px;position: fixed;right:0px;left:0px;bottom:0px;
     }
-    
     .bouton_prochainement{
         width: 50%;text-align: center;
     }
-    
     .bouton_prochainement a{
         font-size: 1rem; font-family: Arial, sans-serif;font-weight: bold;
     }
@@ -226,8 +158,7 @@ footer{
         display: flex;flex-direction: row;margin:0;margin-top: 2%;width:100%;height: 80px;
     }
     .bouton_mentions{
-        padding:0;width: 50%;padding-left: 2%;
-        text-align: left;
+        padding:0;width: 50%;padding-left: 2%;text-align: left;
     }
     .bouton_mentions a{
         text-decoration: none;
@@ -239,28 +170,17 @@ footer{
         transform:translateX(0px);
     }
     .bouton_contact{
-        width: 50%;text-align: center;
-        flex-direction: row;text-align:right;padding-right: 2%;
+        width: 50%;text-align: center;flex-direction: row;text-align:right;padding-right: 2%;
     }
     .bouton_contact a{
         text-decoration: none;
     } 
     .bouton_contact h5{
         padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
-       
     }
     .bouton_contact h5:hover{
         transform:translate(0px,0px);
-    
     }
-
-
-    
-    
-    
-    
-
-
 }
 
 

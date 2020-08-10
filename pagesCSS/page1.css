@@ -1,132 +1,82 @@
-@font-face{
-    font-family: 'Kaushan Script';
-    src:url('../fonts/KaushanScript-Regular.otf');
-}
-@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');
-}
-
+@font-face{font-family: 'Kaushan Script';src:url('../fonts/KaushanScript-Regular.otf');}
+@font-face{font-family: 'Eras Bold';src:url('../fonts/ERASBD.TTF');}
 body{
     width: 100%;margin: 0px;padding: 0px;
 }
 header{
     width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
-
 header h1{
     color:rgb(253, 203, 70);font-family: 'Eras Bold';text-align: center;font-size: 3.5rem;margin:0px;padding-top: 2%;
 }
 p{
     width: 100%;text-align: center;font-size: 1.5rem;
 }
-
 .menu{
-    width: 80%; height:auto;margin:auto;
-    margin-top:2%;
-    padding-bottom: 300px;
-    background-color: rgb(252, 223, 219); 
+    width: 80%; height:auto;margin:auto;margin-top:2%;padding-bottom: 300px;background-color: rgb(252, 223, 219); 
 }
 .presentation{
-    text-align: center;padding-top:5%;padding-bottom: 5%;
-    height: auto;color:rgb(41, 14, 18);
-    font-size: 2.5rem;font-family: 'Brush Script MT';
+    text-align: center;padding-top:5%;padding-bottom: 5%;height: auto;color:rgb(41, 14, 18);font-size: 2.5rem;font-family: 'Brush Script MT';
 }
 .presentation i{
-    color:rgb(240, 82, 97); font-size: 5rem;
-    background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));
-    background-clip: text;-webkit-background-clip: text;
-    color: transparent;
+    color:rgb(240, 82, 97); font-size: 5rem;background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));background-clip: text;-webkit-background-clip: text;color: transparent;
 }
-
-
 section{
-    display: flex;
-    flex-direction: column;
-    width: 90%;margin:auto;
+    display: flex;flex-direction: column;width: 90%;margin:auto;
 }
-
 .titre{
-    display:flex;
-    flex-direction: row;width: 100%;
+    display:flex;flex-direction: row;width: 100%;
 }
-
 h2{
-    margin:0px;
-    padding:0px;
-    width: 40%;
-    font-family:'Kaushan Script';
-    text-align: center;
-    font-size: 2.2rem;
+    margin:0px;padding:0px;width: 40%;font-family:'Kaushan Script';text-align: center;font-size: 2.2rem;
 }
 h2{
     text-decoration: none;
     background:linear-gradient(to top, rgba(60, 18, 24, 1) 0%, rgba(60, 18, 24, 1) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
     transition: background-size .5s;
 }
-  
 h2:hover {
     background-size: 100% 100%;
 }
-
-   
-h3{
-    margin:0px;width: 30%;
-    border-bottom:10px solid rgba(60, 18, 24, 1);margin-bottom: 15px;
+.motif1{
+    margin-bottom:1.5%;width: 30%;border-bottom:10px solid rgba(60, 18, 24, 1);
 }
-h4{
-    margin:0px;width: 30%;
-    border-bottom:10px solid rgba(60, 18, 24, 1);
+.motif2{
+    margin-bottom:1.5%;width: 30%;border-bottom:10px solid rgba(60, 18, 24, 1);
 }
-
 .ligne{
-    display: flex;
-    flex-direction: row;
+    display: flex;flex-direction: row;
 }
 .texte{
     width:70%;
 }
-
 .texte p{
-    font-size: 1.5rem;text-align: left;
-    font-family: 'Kaushan Script';
+    font-size: 1.5rem;text-align: left;font-family: 'Kaushan Script';
 }
 .prix{
     width: 30%;
 }
 .prix p{
-    font-size: 1.5rem;
-    text-align: right; font-family:'Kaushan Script';
+    font-size: 1.5rem;text-align: right; font-family:'Kaushan Script';
 }
 .final{
-    display: flex;
-    flex-direction: row;width: 50%;margin:auto;padding-top:5%;
+    display: flex;flex-direction: row;width: 60%;margin:auto;padding-top:5%;
 }
-
 .final i{
-    font-size: 5rem;
-    color:rgb(240, 82, 97);
-    background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));
-    background-clip: text;-webkit-background-clip: text;
-    color: transparent;
+    font-size: 5rem;color:rgb(240, 82, 97);background: linear-gradient( to right,rgb(240, 82, 97),rgb(246, 145, 106));background-clip: text;-webkit-background-clip: text;color: transparent;
 }
 .final p{
-    width: 30%;
+    margin:0px;width: 30%;
 }
- 
-.final h1{
-    width: 70%;
-    font-size: 2.5rem;
-    font-family: 'Brush Script MT';
+.final h4{
+    margin:0px;margin-left:10px;width: 70%;font-size: 4rem;font-family: 'Brush Script MT';
 }
-
 footer{
     background-color:white;width: 100%;height:160px;position: fixed;left:0px;bottom:0px;
 }
-
 .bouton_prochainement{
-    width: 30%;text-align: center;height: 60px;margin:auto;
-    background-color:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135, 1);border-radius: 17px;
+    width: 30%;text-align: center;height: 60px;margin:auto;background-color:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135, 1);border-radius: 17px;
 }
-
 .bouton_prochainement a{
     color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif;font-weight: bold;
 }
@@ -137,73 +87,42 @@ footer{
     margin:0px;margin-top:10px;
 }
 
-.one{             /*animation trois points*/
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 0.5s;
+.one{opacity: 0;animation: dot 2s infinite;animation-delay: 0.5s;
 }
-.two{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1s;
+.two{opacity: 0;animation: dot 2s infinite;animation-delay: 1s;
 }
-.three{
-    opacity: 0;
-    animation: dot 2s infinite;
-    animation-delay: 1.5s;
+.three{opacity: 0;animation: dot 2s infinite;animation-delay: 1.5s;
 }
-
-
-
 @keyframes dot {
-    0% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
-
-
 .bandeau_bas{   /*bande du bas mentions et contact*/
     display: flex;flex-direction: row;height:100px;width:80%;margin:auto;margin-top: 1%;
 }
-
-
 .bouton_mentions{
-    padding:0;width: 50%;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
+    padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
 }
 .bouton_mentions a{
     text-decoration: none;
 }
 .bouton_mentions h5{
     padding:0;margin:0;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: left;margin:auto;padding-top: 17px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;
+    transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;
 }
 .bouton_mentions h5:hover{
     transform:translateX(200px);
 }
-
 .bouton_contact{
-    width: 50%;text-align: center;
-    background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
+    width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
 }
 .bouton_contact a{
     text-decoration: none;
 } 
 .bouton_contact h5{
     padding:0;margin:0;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;width: 90%;text-align: right;margin:auto;padding-top:17px;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    transition-property: transform;
-    transition-timing-function: ease-in-out;  
+    transition-duration: 0.2s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;  
 }
 .bouton_contact h5:hover{
     transform:translate(-200px,0px);
@@ -211,7 +130,7 @@ footer{
 
 /*______________________________________________________________________________________________________________________________________*/
 
-@media all and (max-width : 1024px) /*tous les écrans de moins de 1024px)*/
+@media all and (max-width : 1024px)
 {
     body{
         margin:0px;padding:0px;display:flex;flex-direction: column;
@@ -234,19 +153,15 @@ footer{
     section{
         width: 96%;margin:auto;
     }
-    
     h2{
         background:transparent; margin:0px;padding:0px;width:52%;font-family:'Kaushan Script';text-align: center;font-size: 1.5rem; transition: background-size .0s;
-    }
-       
+    }   
     h3{
         width: 24%;margin:0px;padding:0px;height: 10px;border-bottom:5px solid black; margin-top: 2%;
     }
     .texte{
         width:70%;margin:0px;
-
     }
-    
     .texte p{
         font-size: 1.5rem;text-align: left;font-family: 'Kaushan Script';
     }
@@ -254,8 +169,7 @@ footer{
         width: 30%;margin:0px;
     }
     .prix p{
-        font-size: 1.5rem;
-        text-align: right; font-family:'Kaushan Script';
+        font-size: 1.5rem;text-align: right; font-family:'Kaushan Script';
     }
     .final{
         width: 80%;margin:auto;
@@ -263,25 +177,18 @@ footer{
     .final i{
         padding-left: 20%;
     }
-    
     .final p{
         text-align: left;width: 40%;
     }    
-    .final h1{
-        width: 60%;text-align: left;
-        font-size: 2.5rem;
-        font-family: 'Brush Script MT';
+    .final h2{
+        width: 60%;text-align: left;font-size: 2.5rem;font-family: 'Brush Script MT';
     }
-
-
     footer{
         background-color:white;width: 100%;height:143px;position: fixed;left:0px;bottom:0px;
     }
-    
     .bouton_prochainement{
         width: 50%;text-align: center;
     }
-    
     .bouton_prochainement a{
         font-size: 1rem; font-family: Arial, sans-serif;font-weight: bold;
     }
@@ -291,14 +198,11 @@ footer{
     .bouton_prochainement p{
         margin:9px;
     }
-    
-    
     .bandeau_bas{   /*bande du bas mentions et contact*/
         display: flex;flex-direction: row;width:100%;margin-top: 4%;height: 80px;
     }
     .bouton_mentions{
-        padding:0;width: 50%;padding-left: 2%;
-        text-align: left;
+        padding:0;width: 50%;padding-left: 2%;text-align: left;
     }
     .bouton_mentions a{
         text-decoration: none;
@@ -310,19 +214,15 @@ footer{
         transform:translateX(0px);
     }
     .bouton_contact{
-        width: 50%;text-align: center;
-        flex-direction: row;text-align:right;padding-right: 2%;
+        width: 50%;text-align: center;flex-direction: row;text-align:right;padding-right: 2%;
     }
     .bouton_contact a{
         text-decoration: none;
     } 
     .bouton_contact h5{
         padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 20px;
-       
     }
     .bouton_contact h5:hover{
         transform:translate(0px,0px);
-    
-    }
-    
+    } 
 }
