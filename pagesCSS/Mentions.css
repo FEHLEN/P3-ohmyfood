@@ -14,7 +14,7 @@ body{
     margin:0px; padding:0px;width: 100%;
 }
 header{
-    width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgba(60, 61, 58);height: 150px; 
+    width:80%;margin:auto;background-color:rgb(87, 156, 135);border-bottom:3px solid rgb(161, 193, 129);height: 150px; 
 }
 
 header h1{
