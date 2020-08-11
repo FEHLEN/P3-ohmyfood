@@ -25,16 +25,16 @@ section{
     width:230px;height:200px;margin:auto;padding:0;background-color:rgba(252, 223, 219,1);transition-property: transform;transition:1s;margin-top:100px;margin-bottom: 100px;
 }  
 .bouton_menu1:hover{           /*animation zoom*/  
-    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-in;}
+    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;}
 
 .bouton_menu2:hover{
-    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-in;}
+    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;}
 
 .bouton_menu3:hover{
-    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-in;}
+    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;}
 
 .bouton_menu4:hover{
-    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;-webkit-transition: all 0.5s ease-in;}
+    transform:scale(1.3);opacity: 0.5;transition: all 0.5s ease-out;}
 
 .bouton_menu1 h2{
     text-align: center;color:rgb(41, 14, 18);font-family: 'Brush Script MT'; font-size: 1.9em;
@@ -74,7 +74,7 @@ section{
 }
 .bouton_menu3 h2{
     padding:0px;text-align: center;padding-top:35px;color:rgb(4,49,223);font-size: 1.9rem;font-family: 'Alex Brush';background: linear-gradient( to right,rgb(4,49,223),rgb(108,178,249));
-    background-clip: text;-webkit-background-clip: text;color: transparent; 
+    background-clip: text;-webkit-background-clip:text;color: transparent; 
 }
 .bouton_menu3 p{
     width: 100%;text-align: center;color:rgb(4,49,223);font-family: 'Bradley Hand ITC';font-size: 2rem;font-weight: bold;
@@ -88,7 +88,7 @@ section{
 }
 .bouton_menu4 h2{
     text-align: center;padding-top:35px;font-family: 'Kaushan Script', sans-serif;font-size: 1.5rem;color:rgb(66,151,60);background: linear-gradient( to right, rgb(66,151,60),rgb(174,225,147));
-    background-clip: text;-webkit-background-clip: text;color: transparent;
+    background-clip: text;-webkit-background-clip:text;color: transparent;
 }
 .bouton_menu4 p{
     width: 100%;text-align: center;margin-bottom: 0;color:rgb(66,151,60);font-size: 2rem;font-family: 'Bradley Hand ITC';font-weight: bold;
@@ -98,10 +98,10 @@ footer{
     background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
 }
 .bouton_prochainement{
-    width: 30%; margin: auto;text-align: center;background:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;
+    width: 30%; margin: auto;text-align: center;background:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;margin-top: 1%;margin-bottom: 1%;
 }
 .bouton_prochainement a{
-    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif; 
+    color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif;font-weight: bold;
 }
 .bouton_prochainement i{
     padding-right: 2%;color:rgb(253,203,70); font-size:0.9rem;
@@ -121,7 +121,7 @@ footer{
     100% {opacity: 1;}
 }
 .bandeau_bas{   /*bande du bas mentions et contact*/
-    display: flex;flex-direction: row;margin-top: 2%;
+    display: flex;flex-direction: row;height: 100px;
 }
 .bouton_mentions{
     padding:0;width: 50%;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;text-align: left;
@@ -130,12 +130,33 @@ footer{
     text-decoration: none;
 }
 .bouton_mentions h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left: 2%;
-    transition-duration: 0.3s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;
+    margin:0px;padding:0px;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-left:2%;padding-top: 25px;
 }
 .bouton_mentions h5:hover{
-    transform:translateX(200px);
-}
+        animation: shake 0.80s cubic-bezier(.36,.07,.19,.97) both; 
+        transform: translate3d(0, 0, 0); 
+        backface-visibility: hidden; 
+        perspective: 1000px; 
+      } 
+      
+      @keyframes shake { 
+        10%, 90% { 
+        transform: translate3d(-1px, 0, 0); 
+        } 
+      
+        20%, 80% { 
+        transform: translate3d(2px, 0, 0); 
+        } 
+      
+        30%, 50%, 70% { 
+        transform: translate3d(-4px, 0, 0); 
+        } 
+      
+        40%, 60% { 
+        transform: translate3d(4px, 0, 0); 
+        } 
+      } 
+
 .bouton_contact{
     width: 50%;text-align: center;background-color:rgb(87, 156, 135);border-top:3px solid rgb(161, 193, 129);flex-direction: row;
     text-align:right;
@@ -144,12 +165,15 @@ footer{
     text-decoration: none;
 } 
 .bouton_contact h5{
-    color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;
-    transition-duration: 0.3s;transition-delay: 0.2s;transition-property: transform;transition-timing-function: ease-in-out;  
+    margin:0px;padding:0px;color:rgb(253, 203, 70);font-size: 1.5rem;font-family: Arial;padding-right: 2%;padding-top: 25px;
+    
 }
 .bouton_contact h5:hover{
-    transform:translate(-200px,0px);
-}
+        animation: shake 0.80s cubic-bezier(.36,.07,.19,.97) both; 
+        transform: translate3d(0, 0, 0); 
+        backface-visibility: hidden; 
+        perspective: 1000px; 
+      } 
 /*______________________________________________________________________________________________________________________________*/
 
 @media all and (max-width : 1024px)	
