@@ -98,7 +98,7 @@ footer{
     background-color:white;width: 100%;position: fixed;right:0px;left:0px;bottom:0px;
 }
 .bouton_prochainement{
-    width: 30%; margin: auto;text-align: center;background:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;margin-top: 1%;margin-bottom: 1%;
+    width: 30%; margin: auto;text-align: center;background:rgb(87, 156, 135);border:2px solid rgba(87, 156, 135,1);border-radius: 10px;margin-bottom: 1%;
 }
 .bouton_prochainement a{
     color:rgb(253, 203, 70);text-decoration: none;font-size: 1.5rem;padding-right: 2%; font-family: Arial, sans-serif;font-weight: bold;

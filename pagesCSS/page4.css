@@ -20,7 +20,7 @@ p{
     width: 100%;text-align: center;font-size: 1.5rem;
 }
 .menu{
-    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(253, 253, 253);padding-bottom: 300px;
+    width: 80%;margin: auto;margin-top: 2%;background-color:  rgb(253, 253, 253);padding-bottom: 200px;margin-bottom: 120px;
 }
 .presentation{
     text-align: center;height: 20%;font-size: 3rem;font-family: 'Kaushan Script';
@@ -62,11 +62,9 @@ section h3, section h4{
     font-size: 1.5rem;font-family: 'Bradley Hand ITC';margin-right:50%;text-align: right;
 }
 footer{
-    background-color:white;width: 100%;height:180px;position: fixed;right:0px;left:0px;bottom:0px;
+    background-color:white;width: 100%;height:100px;position: fixed;right:0px;left:0px;bottom:0px;
 }
-.bande_blanche{
-    background-color:white;width: 100%;height:80px;
-    }
+
 .bandeau_bas{   /*bande du bas mentions et contact*/
     display: flex;flex-direction: row;width:80%;height:100px;margin:auto;
 }
@@ -169,14 +167,11 @@ footer{
         padding:0;margin:0;font-size: 1.2rem;text-align: right; font-family:'Kaushan Script';
     }
     footer{
-        background-color:white;width: 100%;height:160px;position: fixed;left:0px;bottom:0px;
+        background-color:white;width: 100%;height:90px;position: fixed;left:0px;bottom:0px;
     }
-    .bande_blanche{
-        background-color:white;width: 100%;height:80px;
-        }
     
     .bandeau_bas{   /*bande du bas mentions et contact*/
-        display: flex;flex-direction: row;width:100%;margin:0;height: 80px;
+        display: flex;flex-direction: row;width:100%;margin:0;height: 90px;
     }
     .bouton_mentions{
         padding:0;width: 50%;padding-left: 2%;text-align: left;
@@ -185,7 +180,7 @@ footer{
         text-decoration: none;
     }
     .bouton_mentions h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 25px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
     }
     .bouton_mentions h5:hover{
         transform:translateX(0px);
@@ -196,7 +191,7 @@ footer{
     .bouton_contact a{text-decoration: none;
     } 
     .bouton_contact h5{
-        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 25px;
+        padding:0;margin:0;font-size: 1rem;font-family: Arial;padding-top: 30px;
     }
     .bouton_contact h5:hover{
         transform:translate(0px,0px);
